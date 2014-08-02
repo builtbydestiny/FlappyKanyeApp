@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA21820B198D10990012A94F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820A198D10990012A94F /* Foundation.framework */; };
+		FA21820D198D10990012A94F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820C198D10990012A94F /* CoreGraphics.framework */; };
+		FA21820F198D10990012A94F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820E198D10990012A94F /* UIKit.framework */; };
+		FA218211198D10990012A94F /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA218210198D10990012A94F /* SpriteKit.framework */; };
+		FA218217198D10990012A94F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA218215198D10990012A94F /* InfoPlist.strings */; };
+		FA218219198D10990012A94F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA218218198D10990012A94F /* main.m */; };
+		FA21821D198D10990012A94F /* YBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21821C198D10990012A94F /* YBAppDelegate.m */; };
+		FA218220198D10990012A94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA21821E198D10990012A94F /* Main.storyboard */; };
+		FA218223198D10990012A94F /* YBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA218222198D10990012A94F /* YBViewController.m */; };
+		FA218226198D10990012A94F /* YBMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FA218225198D10990012A94F /* YBMyScene.m */; };
+		FA218228198D10990012A94F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FA218227198D10990012A94F /* Spaceship.png */; };
+		FA21822A198D10990012A94F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA218229198D10990012A94F /* Images.xcassets */; };
+		FA218231198D10990012A94F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA218230198D10990012A94F /* XCTest.framework */; };
+		FA218232198D10990012A94F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820A198D10990012A94F /* Foundation.framework */; };
+		FA218233198D10990012A94F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820E198D10990012A94F /* UIKit.framework */; };
+		FA21823B198D10990012A94F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA218239198D10990012A94F /* InfoPlist.strings */; };
+		FA21823D198D10990012A94F /* YeezyBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21823C198D10990012A94F /* YeezyBirdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA218234198D10990012A94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2181FF198D10980012A94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA218206198D10990012A94F;
+			remoteInfo = YeezyBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA218207198D10990012A94F /* YeezyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeezyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA21820A198D10990012A94F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA21820C198D10990012A94F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA21820E198D10990012A94F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA218210198D10990012A94F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FA218214198D10990012A94F /* YeezyBird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YeezyBird-Info.plist"; sourceTree = "<group>"; };
+		FA218216198D10990012A94F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA218218198D10990012A94F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA21821A198D10990012A94F /* YeezyBird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YeezyBird-Prefix.pch"; sourceTree = "<group>"; };
+		FA21821B198D10990012A94F /* YBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBAppDelegate.h; sourceTree = "<group>"; };
+		FA21821C198D10990012A94F /* YBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAppDelegate.m; sourceTree = "<group>"; };
+		FA21821F198D10990012A94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA218221198D10990012A94F /* YBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBViewController.h; sourceTree = "<group>"; };
+		FA218222198D10990012A94F /* YBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBViewController.m; sourceTree = "<group>"; };
+		FA218224198D10990012A94F /* YBMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBMyScene.h; sourceTree = "<group>"; };
+		FA218225198D10990012A94F /* YBMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBMyScene.m; sourceTree = "<group>"; };
+		FA218227198D10990012A94F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		FA218229198D10990012A94F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA21822F198D10990012A94F /* YeezyBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeezyBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA218230198D10990012A94F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA218238198D10990012A94F /* YeezyBirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YeezyBirdTests-Info.plist"; sourceTree = "<group>"; };
+		FA21823A198D10990012A94F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA21823C198D10990012A94F /* YeezyBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeezyBirdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA218204198D10990012A94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA21820D198D10990012A94F /* CoreGraphics.framework in Frameworks */,
+				FA21820F198D10990012A94F /* UIKit.framework in Frameworks */,
+				FA218211198D10990012A94F /* SpriteKit.framework in Frameworks */,
+				FA21820B198D10990012A94F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA21822C198D10990012A94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA218231198D10990012A94F /* XCTest.framework in Frameworks */,
+				FA218233198D10990012A94F /* UIKit.framework in Frameworks */,
+				FA218232198D10990012A94F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2181FE198D10980012A94F = {
+			isa = PBXGroup;
+			children = (
+				FA218212198D10990012A94F /* YeezyBird */,
+				FA218236198D10990012A94F /* YeezyBirdTests */,
+				FA218209198D10990012A94F /* Frameworks */,
+				FA218208198D10990012A94F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA218208198D10990012A94F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA218207198D10990012A94F /* YeezyBird.app */,
+				FA21822F198D10990012A94F /* YeezyBirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA218209198D10990012A94F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA21820A198D10990012A94F /* Foundation.framework */,
+				FA21820C198D10990012A94F /* CoreGraphics.framework */,
+				FA21820E198D10990012A94F /* UIKit.framework */,
+				FA218210198D10990012A94F /* SpriteKit.framework */,
+				FA218230198D10990012A94F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA218212198D10990012A94F /* YeezyBird */ = {
+			isa = PBXGroup;
+			children = (
+				FA21821B198D10990012A94F /* YBAppDelegate.h */,
+				FA21821C198D10990012A94F /* YBAppDelegate.m */,
+				FA21821E198D10990012A94F /* Main.storyboard */,
+				FA218221198D10990012A94F /* YBViewController.h */,
+				FA218222198D10990012A94F /* YBViewController.m */,
+				FA218224198D10990012A94F /* YBMyScene.h */,
+				FA218225198D10990012A94F /* YBMyScene.m */,
+				FA218227198D10990012A94F /* Spaceship.png */,
+				FA218229198D10990012A94F /* Images.xcassets */,
+				FA218213198D10990012A94F /* Supporting Files */,
+			);
+			path = YeezyBird;
+			sourceTree = "<group>";
+		};
+		FA218213198D10990012A94F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA218214198D10990012A94F /* YeezyBird-Info.plist */,
+				FA218215198D10990012A94F /* InfoPlist.strings */,
+				FA218218198D10990012A94F /* main.m */,
+				FA21821A198D10990012A94F /* YeezyBird-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA218236198D10990012A94F /* YeezyBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA21823C198D10990012A94F /* YeezyBirdTests.m */,
+				FA218237198D10990012A94F /* Supporting Files */,
+			);
+			path = YeezyBirdTests;
+			sourceTree = "<group>";
+		};
+		FA218237198D10990012A94F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA218238198D10990012A94F /* YeezyBirdTests-Info.plist */,
+				FA218239198D10990012A94F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA218206198D10990012A94F /* YeezyBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA218240198D10990012A94F /* Build configuration list for PBXNativeTarget "YeezyBird" */;
+			buildPhases = (
+				FA218203198D10990012A94F /* Sources */,
+				FA218204198D10990012A94F /* Frameworks */,
+				FA218205198D10990012A94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeezyBird;
+			productName = YeezyBird;
+			productReference = FA218207198D10990012A94F /* YeezyBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA21822E198D10990012A94F /* YeezyBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA218243198D10990012A94F /* Build configuration list for PBXNativeTarget "YeezyBirdTests" */;
+			buildPhases = (
+				FA21822B198D10990012A94F /* Sources */,
+				FA21822C198D10990012A94F /* Frameworks */,
+				FA21822D198D10990012A94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA218235198D10990012A94F /* PBXTargetDependency */,
+			);
+			name = YeezyBirdTests;
+			productName = YeezyBirdTests;
+			productReference = FA21822F198D10990012A94F /* YeezyBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2181FF198D10980012A94F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Builtby Destiny";
+				TargetAttributes = {
+					FA21822E198D10990012A94F = {
+						TestTargetID = FA218206198D10990012A94F;
+					};
+				};
+			};
+			buildConfigurationList = FA218202198D10980012A94F /* Build configuration list for PBXProject "YeezyBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2181FE198D10980012A94F;
+			productRefGroup = FA218208198D10990012A94F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA218206198D10990012A94F /* YeezyBird */,
+				FA21822E198D10990012A94F /* YeezyBirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA218205198D10990012A94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA218217198D10990012A94F /* InfoPlist.strings in Resources */,
+				FA21822A198D10990012A94F /* Images.xcassets in Resources */,
+				FA218228198D10990012A94F /* Spaceship.png in Resources */,
+				FA218220198D10990012A94F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA21822D198D10990012A94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA21823B198D10990012A94F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA218203198D10990012A94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA218219198D10990012A94F /* main.m in Sources */,
+				FA218226198D10990012A94F /* YBMyScene.m in Sources */,
+				FA218223198D10990012A94F /* YBViewController.m in Sources */,
+				FA21821D198D10990012A94F /* YBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA21822B198D10990012A94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA21823D198D10990012A94F /* YeezyBirdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA218235198D10990012A94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA218206198D10990012A94F /* YeezyBird */;
+			targetProxy = FA218234198D10990012A94F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA218215198D10990012A94F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA218216198D10990012A94F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA21821E198D10990012A94F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA21821F198D10990012A94F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA218239198D10990012A94F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA21823A198D10990012A94F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA21823E198D10990012A94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA21823F198D10990012A94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA218241198D10990012A94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YeezyBird/YeezyBird-Prefix.pch";
+				INFOPLIST_FILE = "YeezyBird/YeezyBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA218242198D10990012A94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YeezyBird/YeezyBird-Prefix.pch";
+				INFOPLIST_FILE = "YeezyBird/YeezyBird-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA218244198D10990012A94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YeezyBird.app/YeezyBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YeezyBird/YeezyBird-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YeezyBirdTests/YeezyBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA218245198D10990012A94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YeezyBird.app/YeezyBird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YeezyBird/YeezyBird-Prefix.pch";
+				INFOPLIST_FILE = "YeezyBirdTests/YeezyBirdTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA218202198D10980012A94F /* Build configuration list for PBXProject "YeezyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA21823E198D10990012A94F /* Debug */,
+				FA21823F198D10990012A94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA218240198D10990012A94F /* Build configuration list for PBXNativeTarget "YeezyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA218241198D10990012A94F /* Debug */,
+				FA218242198D10990012A94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA218243198D10990012A94F /* Build configuration list for PBXNativeTarget "YeezyBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA218244198D10990012A94F /* Debug */,
+				FA218245198D10990012A94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2181FF198D10980012A94F /* Project object */;
+}
