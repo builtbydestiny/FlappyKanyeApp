@@ -23,7 +23,24 @@
 		FA218232198D10990012A94F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820A198D10990012A94F /* Foundation.framework */; };
 		FA218233198D10990012A94F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820E198D10990012A94F /* UIKit.framework */; };
 		FA21823B198D10990012A94F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA218239198D10990012A94F /* InfoPlist.strings */; };
-		FA21823D198D10990012A94F /* YeezyBirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21823C198D10990012A94F /* YeezyBirdTests.m */; };
+		FA21823D198D10990012A94F /* FlappyYeezusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21823C198D10990012A94F /* FlappyYeezusTests.m */; };
+		FA218264198D12930012A94F /* backgrounds.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FA218248198D12930012A94F /* backgrounds.atlas */; };
+		FA218265198D12930012A94F /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FA218249198D12930012A94F /* sprites.atlas */; };
+		FA218266198D12930012A94F /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21824C198D12930012A94F /* SKAction+SKTExtras.m */; };
+		FA218267198D12930012A94F /* SKAction+SKTSpecialEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21824E198D12930012A94F /* SKAction+SKTSpecialEffects.m */; };
+		FA218268198D12930012A94F /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = FA218250198D12930012A94F /* SKEmitterNode+SKTExtras.m */; };
+		FA218269198D12930012A94F /* SKNode+SKTDebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = FA218252198D12930012A94F /* SKNode+SKTDebugDraw.m */; };
+		FA21826A198D12930012A94F /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = FA218254198D12930012A94F /* SKNode+SKTExtras.m */; };
+		FA21826B198D12930012A94F /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = FA218256198D12930012A94F /* SKTAudio.m */; };
+		FA21826C198D12930012A94F /* SKTEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = FA218258198D12930012A94F /* SKTEffects.m */; };
+		FA21826D198D12930012A94F /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21825A198D12930012A94F /* SKTTimingFunctions.m */; };
+		FA21826E198D12930012A94F /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA21825D198D12930012A94F /* coin.wav */; };
+		FA21826F198D12930012A94F /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA21825E198D12930012A94F /* ding.wav */; };
+		FA218270198D12930012A94F /* falling.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA21825F198D12930012A94F /* falling.wav */; };
+		FA218271198D12930012A94F /* flapping.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA218260198D12930012A94F /* flapping.wav */; };
+		FA218272198D12930012A94F /* hitGround.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA218261198D12930012A94F /* hitGround.wav */; };
+		FA218273198D12930012A94F /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA218262198D12930012A94F /* pop.wav */; };
+		FA218274198D12930012A94F /* whack.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA218263198D12930012A94F /* whack.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,20 +49,20 @@
 			containerPortal = FA2181FF198D10980012A94F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FA218206198D10990012A94F;
-			remoteInfo = YeezyBird;
+			remoteInfo = FlappyYeezus;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA218207198D10990012A94F /* YeezyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeezyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA218207198D10990012A94F /* FlappyYeezus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyYeezus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA21820A198D10990012A94F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA21820C198D10990012A94F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FA21820E198D10990012A94F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA218210198D10990012A94F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		FA218214198D10990012A94F /* YeezyBird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YeezyBird-Info.plist"; sourceTree = "<group>"; };
+		FA218214198D10990012A94F /* Flappy Yeezus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flappy Yeezus-Info.plist"; sourceTree = "<group>"; };
 		FA218216198D10990012A94F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA218218198D10990012A94F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA21821A198D10990012A94F /* YeezyBird-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YeezyBird-Prefix.pch"; sourceTree = "<group>"; };
+		FA21821A198D10990012A94F /* Flappy Yeezus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flappy Yeezus-Prefix.pch"; sourceTree = "<group>"; };
 		FA21821B198D10990012A94F /* YBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBAppDelegate.h; sourceTree = "<group>"; };
 		FA21821C198D10990012A94F /* YBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAppDelegate.m; sourceTree = "<group>"; };
 		FA21821F198D10990012A94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,11 +72,37 @@
 		FA218225198D10990012A94F /* YBMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBMyScene.m; sourceTree = "<group>"; };
 		FA218227198D10990012A94F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		FA218229198D10990012A94F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FA21822F198D10990012A94F /* YeezyBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeezyBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA21822F198D10990012A94F /* FlappyYeezusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyYeezusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA218230198D10990012A94F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FA218238198D10990012A94F /* YeezyBirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YeezyBirdTests-Info.plist"; sourceTree = "<group>"; };
+		FA218238198D10990012A94F /* FlappyYeezusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyYeezusTests-Info.plist"; sourceTree = "<group>"; };
 		FA21823A198D10990012A94F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FA21823C198D10990012A94F /* YeezyBirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeezyBirdTests.m; sourceTree = "<group>"; };
+		FA21823C198D10990012A94F /* FlappyYeezusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyYeezusTests.m; sourceTree = "<group>"; };
+		FA218248198D12930012A94F /* backgrounds.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = backgrounds.atlas; sourceTree = "<group>"; };
+		FA218249198D12930012A94F /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		FA21824B198D12930012A94F /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		FA21824C198D12930012A94F /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		FA21824D198D12930012A94F /* SKAction+SKTSpecialEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTSpecialEffects.h"; sourceTree = "<group>"; };
+		FA21824E198D12930012A94F /* SKAction+SKTSpecialEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTSpecialEffects.m"; sourceTree = "<group>"; };
+		FA21824F198D12930012A94F /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		FA218250198D12930012A94F /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		FA218251198D12930012A94F /* SKNode+SKTDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTDebugDraw.h"; sourceTree = "<group>"; };
+		FA218252198D12930012A94F /* SKNode+SKTDebugDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTDebugDraw.m"; sourceTree = "<group>"; };
+		FA218253198D12930012A94F /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		FA218254198D12930012A94F /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		FA218255198D12930012A94F /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		FA218256198D12930012A94F /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		FA218257198D12930012A94F /* SKTEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTEffects.h; sourceTree = "<group>"; };
+		FA218258198D12930012A94F /* SKTEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTEffects.m; sourceTree = "<group>"; };
+		FA218259198D12930012A94F /* SKTTimingFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTTimingFunctions.h; sourceTree = "<group>"; };
+		FA21825A198D12930012A94F /* SKTTimingFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTTimingFunctions.m; sourceTree = "<group>"; };
+		FA21825B198D12930012A94F /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		FA21825D198D12930012A94F /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		FA21825E198D12930012A94F /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		FA21825F198D12930012A94F /* falling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = falling.wav; sourceTree = "<group>"; };
+		FA218260198D12930012A94F /* flapping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flapping.wav; sourceTree = "<group>"; };
+		FA218261198D12930012A94F /* hitGround.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitGround.wav; sourceTree = "<group>"; };
+		FA218262198D12930012A94F /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		FA218263198D12930012A94F /* whack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whack.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +133,8 @@
 		FA2181FE198D10980012A94F = {
 			isa = PBXGroup;
 			children = (
-				FA218212198D10990012A94F /* YeezyBird */,
-				FA218236198D10990012A94F /* YeezyBirdTests */,
+				FA218212198D10990012A94F /* FlappyYeezus */,
+				FA218236198D10990012A94F /* FlappyYeezusTests */,
 				FA218209198D10990012A94F /* Frameworks */,
 				FA218208198D10990012A94F /* Products */,
 			);
@@ -100,8 +143,8 @@
 		FA218208198D10990012A94F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA218207198D10990012A94F /* YeezyBird.app */,
-				FA21822F198D10990012A94F /* YeezyBirdTests.xctest */,
+				FA218207198D10990012A94F /* FlappyYeezus.app */,
+				FA21822F198D10990012A94F /* FlappyYeezusTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,9 +161,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA218212198D10990012A94F /* YeezyBird */ = {
+		FA218212198D10990012A94F /* FlappyYeezus */ = {
 			isa = PBXGroup;
 			children = (
+				FA218246198D12930012A94F /* Resources */,
 				FA21821B198D10990012A94F /* YBAppDelegate.h */,
 				FA21821C198D10990012A94F /* YBAppDelegate.m */,
 				FA21821E198D10990012A94F /* Main.storyboard */,
@@ -132,44 +176,103 @@
 				FA218229198D10990012A94F /* Images.xcassets */,
 				FA218213198D10990012A94F /* Supporting Files */,
 			);
-			path = YeezyBird;
+			name = FlappyYeezus;
+			path = FlappyYeezus;
 			sourceTree = "<group>";
 		};
 		FA218213198D10990012A94F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA218214198D10990012A94F /* YeezyBird-Info.plist */,
+				FA218214198D10990012A94F /* Flappy Yeezus-Info.plist */,
 				FA218215198D10990012A94F /* InfoPlist.strings */,
 				FA218218198D10990012A94F /* main.m */,
-				FA21821A198D10990012A94F /* YeezyBird-Prefix.pch */,
+				FA21821A198D10990012A94F /* Flappy Yeezus-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FA218236198D10990012A94F /* YeezyBirdTests */ = {
+		FA218236198D10990012A94F /* FlappyYeezusTests */ = {
 			isa = PBXGroup;
 			children = (
-				FA21823C198D10990012A94F /* YeezyBirdTests.m */,
+				FA21823C198D10990012A94F /* FlappyYeezusTests.m */,
 				FA218237198D10990012A94F /* Supporting Files */,
 			);
-			path = YeezyBirdTests;
+			name = FlappyYeezusTests;
+			path = FlappyYeezusTests;
 			sourceTree = "<group>";
 		};
 		FA218237198D10990012A94F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA218238198D10990012A94F /* YeezyBirdTests-Info.plist */,
+				FA218238198D10990012A94F /* FlappyYeezusTests-Info.plist */,
 				FA218239198D10990012A94F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FA218246198D12930012A94F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA218247198D12930012A94F /* Art */,
+				FA21824A198D12930012A94F /* SKTUtils */,
+				FA21825C198D12930012A94F /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA218247198D12930012A94F /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				FA218248198D12930012A94F /* backgrounds.atlas */,
+				FA218249198D12930012A94F /* sprites.atlas */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		FA21824A198D12930012A94F /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				FA21824B198D12930012A94F /* SKAction+SKTExtras.h */,
+				FA21824C198D12930012A94F /* SKAction+SKTExtras.m */,
+				FA21824D198D12930012A94F /* SKAction+SKTSpecialEffects.h */,
+				FA21824E198D12930012A94F /* SKAction+SKTSpecialEffects.m */,
+				FA21824F198D12930012A94F /* SKEmitterNode+SKTExtras.h */,
+				FA218250198D12930012A94F /* SKEmitterNode+SKTExtras.m */,
+				FA218251198D12930012A94F /* SKNode+SKTDebugDraw.h */,
+				FA218252198D12930012A94F /* SKNode+SKTDebugDraw.m */,
+				FA218253198D12930012A94F /* SKNode+SKTExtras.h */,
+				FA218254198D12930012A94F /* SKNode+SKTExtras.m */,
+				FA218255198D12930012A94F /* SKTAudio.h */,
+				FA218256198D12930012A94F /* SKTAudio.m */,
+				FA218257198D12930012A94F /* SKTEffects.h */,
+				FA218258198D12930012A94F /* SKTEffects.m */,
+				FA218259198D12930012A94F /* SKTTimingFunctions.h */,
+				FA21825A198D12930012A94F /* SKTTimingFunctions.m */,
+				FA21825B198D12930012A94F /* SKTUtils.h */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		FA21825C198D12930012A94F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FA21825D198D12930012A94F /* coin.wav */,
+				FA21825E198D12930012A94F /* ding.wav */,
+				FA21825F198D12930012A94F /* falling.wav */,
+				FA218260198D12930012A94F /* flapping.wav */,
+				FA218261198D12930012A94F /* hitGround.wav */,
+				FA218262198D12930012A94F /* pop.wav */,
+				FA218263198D12930012A94F /* whack.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA218206198D10990012A94F /* YeezyBird */ = {
+		FA218206198D10990012A94F /* FlappyYeezus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA218240198D10990012A94F /* Build configuration list for PBXNativeTarget "YeezyBird" */;
+			buildConfigurationList = FA218240198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyYeezus" */;
 			buildPhases = (
 				FA218203198D10990012A94F /* Sources */,
 				FA218204198D10990012A94F /* Frameworks */,
@@ -179,14 +282,14 @@
 			);
 			dependencies = (
 			);
-			name = YeezyBird;
-			productName = YeezyBird;
-			productReference = FA218207198D10990012A94F /* YeezyBird.app */;
+			name = FlappyYeezus;
+			productName = FlappyYeezus;
+			productReference = FA218207198D10990012A94F /* FlappyYeezus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA21822E198D10990012A94F /* YeezyBirdTests */ = {
+		FA21822E198D10990012A94F /* FlappyYeezusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA218243198D10990012A94F /* Build configuration list for PBXNativeTarget "YeezyBirdTests" */;
+			buildConfigurationList = FA218243198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyYeezusTests" */;
 			buildPhases = (
 				FA21822B198D10990012A94F /* Sources */,
 				FA21822C198D10990012A94F /* Frameworks */,
@@ -197,9 +300,9 @@
 			dependencies = (
 				FA218235198D10990012A94F /* PBXTargetDependency */,
 			);
-			name = YeezyBirdTests;
-			productName = YeezyBirdTests;
-			productReference = FA21822F198D10990012A94F /* YeezyBirdTests.xctest */;
+			name = FlappyYeezusTests;
+			productName = FlappyYeezusTests;
+			productReference = FA21822F198D10990012A94F /* FlappyYeezusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +320,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA218202198D10980012A94F /* Build configuration list for PBXProject "YeezyBird" */;
+			buildConfigurationList = FA218202198D10980012A94F /* Build configuration list for PBXProject "FlappyYeezus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,8 +333,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA218206198D10990012A94F /* YeezyBird */,
-				FA21822E198D10990012A94F /* YeezyBirdTests */,
+				FA218206198D10990012A94F /* FlappyYeezus */,
+				FA21822E198D10990012A94F /* FlappyYeezusTests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,10 +344,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA218274198D12930012A94F /* whack.wav in Resources */,
 				FA218217198D10990012A94F /* InfoPlist.strings in Resources */,
+				FA21826E198D12930012A94F /* coin.wav in Resources */,
 				FA21822A198D10990012A94F /* Images.xcassets in Resources */,
+				FA218264198D12930012A94F /* backgrounds.atlas in Resources */,
 				FA218228198D10990012A94F /* Spaceship.png in Resources */,
+				FA218272198D12930012A94F /* hitGround.wav in Resources */,
+				FA218273198D12930012A94F /* pop.wav in Resources */,
+				FA218265198D12930012A94F /* sprites.atlas in Resources */,
+				FA21826F198D12930012A94F /* ding.wav in Resources */,
+				FA218271198D12930012A94F /* flapping.wav in Resources */,
 				FA218220198D10990012A94F /* Main.storyboard in Resources */,
+				FA218270198D12930012A94F /* falling.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +376,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA218219198D10990012A94F /* main.m in Sources */,
+				FA21826C198D12930012A94F /* SKTEffects.m in Sources */,
+				FA21826A198D12930012A94F /* SKNode+SKTExtras.m in Sources */,
 				FA218226198D10990012A94F /* YBMyScene.m in Sources */,
+				FA218268198D12930012A94F /* SKEmitterNode+SKTExtras.m in Sources */,
+				FA218266198D12930012A94F /* SKAction+SKTExtras.m in Sources */,
+				FA21826D198D12930012A94F /* SKTTimingFunctions.m in Sources */,
 				FA218223198D10990012A94F /* YBViewController.m in Sources */,
 				FA21821D198D10990012A94F /* YBAppDelegate.m in Sources */,
+				FA218269198D12930012A94F /* SKNode+SKTDebugDraw.m in Sources */,
+				FA218267198D12930012A94F /* SKAction+SKTSpecialEffects.m in Sources */,
+				FA21826B198D12930012A94F /* SKTAudio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA21823D198D10990012A94F /* YeezyBirdTests.m in Sources */,
+				FA21823D198D10990012A94F /* FlappyYeezusTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +403,7 @@
 /* Begin PBXTargetDependency section */
 		FA218235198D10990012A94F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA218206198D10990012A94F /* YeezyBird */;
+			target = FA218206198D10990012A94F /* FlappyYeezus */;
 			targetProxy = FA218234198D10990012A94F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,9 +512,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YeezyBird/YeezyBird-Prefix.pch";
-				INFOPLIST_FILE = "YeezyBird/YeezyBird-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "FlappyYeezus/Flappy Yeezus-Prefix.pch";
+				INFOPLIST_FILE = "FlappyYeezus/Flappy Yeezus-Info.plist";
+				PRODUCT_NAME = FlappyYeezus;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,9 +526,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YeezyBird/YeezyBird-Prefix.pch";
-				INFOPLIST_FILE = "YeezyBird/YeezyBird-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "FlappyYeezus/Flappy Yeezus-Prefix.pch";
+				INFOPLIST_FILE = "FlappyYeezus/Flappy Yeezus-Info.plist";
+				PRODUCT_NAME = FlappyYeezus;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -417,20 +537,20 @@
 		FA218244198D10990012A94F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YeezyBird.app/YeezyBird";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyYeezus.app/FlappyYeezus";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YeezyBird/YeezyBird-Prefix.pch";
+				GCC_PREFIX_HEADER = "FlappyYeezus/FlappyYeezus-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "YeezyBirdTests/YeezyBirdTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "FlappyYeezusTests/FlappyYeezusTests-Info.plist";
+				PRODUCT_NAME = FlappyYeezusTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -439,16 +559,16 @@
 		FA218245198D10990012A94F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YeezyBird.app/YeezyBird";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyYeezus.app/FlappyYeezus";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YeezyBird/YeezyBird-Prefix.pch";
-				INFOPLIST_FILE = "YeezyBirdTests/YeezyBirdTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "FlappyYeezus/FlappyYeezus-Prefix.pch";
+				INFOPLIST_FILE = "FlappyYeezusTests/FlappyYeezusTests-Info.plist";
+				PRODUCT_NAME = FlappyYeezusTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -457,7 +577,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA218202198D10980012A94F /* Build configuration list for PBXProject "YeezyBird" */ = {
+		FA218202198D10980012A94F /* Build configuration list for PBXProject "FlappyYeezus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA21823E198D10990012A94F /* Debug */,
@@ -466,21 +586,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA218240198D10990012A94F /* Build configuration list for PBXNativeTarget "YeezyBird" */ = {
+		FA218240198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyYeezus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA218241198D10990012A94F /* Debug */,
 				FA218242198D10990012A94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		FA218243198D10990012A94F /* Build configuration list for PBXNativeTarget "YeezyBirdTests" */ = {
+		FA218243198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyYeezusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA218244198D10990012A94F /* Debug */,
 				FA218245198D10990012A94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
