@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA12DC2B1992249F005633ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA12DC2A1992249F005633ED /* Images.xcassets */; };
+		FA12DC3B199249C5005633ED /* flatFg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA12DC3A199249C5005633ED /* flatFg@2x.png */; };
 		FA21820B198D10990012A94F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820A198D10990012A94F /* Foundation.framework */; };
 		FA21820D198D10990012A94F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820C198D10990012A94F /* CoreGraphics.framework */; };
 		FA21820F198D10990012A94F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820E198D10990012A94F /* UIKit.framework */; };
@@ -18,12 +20,11 @@
 		FA218223198D10990012A94F /* YBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA218222198D10990012A94F /* YBViewController.m */; };
 		FA218226198D10990012A94F /* YBMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FA218225198D10990012A94F /* YBMyScene.m */; };
 		FA218228198D10990012A94F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FA218227198D10990012A94F /* Spaceship.png */; };
-		FA21822A198D10990012A94F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA218229198D10990012A94F /* Images.xcassets */; };
 		FA218231198D10990012A94F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA218230198D10990012A94F /* XCTest.framework */; };
 		FA218232198D10990012A94F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820A198D10990012A94F /* Foundation.framework */; };
 		FA218233198D10990012A94F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820E198D10990012A94F /* UIKit.framework */; };
 		FA21823B198D10990012A94F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA218239198D10990012A94F /* InfoPlist.strings */; };
-		FA21823D198D10990012A94F /* FlappyYeezusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21823C198D10990012A94F /* FlappyYeezusTests.m */; };
+		FA21823D198D10990012A94F /* FlappyKanyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21823C198D10990012A94F /* FlappyKanyeTests.m */; };
 		FA218264198D12930012A94F /* backgrounds.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FA218248198D12930012A94F /* backgrounds.atlas */; };
 		FA218265198D12930012A94F /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FA218249198D12930012A94F /* sprites.atlas */; };
 		FA218266198D12930012A94F /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21824C198D12930012A94F /* SKAction+SKTExtras.m */; };
@@ -41,6 +42,18 @@
 		FA218272198D12930012A94F /* hitGround.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA218261198D12930012A94F /* hitGround.wav */; };
 		FA218273198D12930012A94F /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA218262198D12930012A94F /* pop.wav */; };
 		FA218274198D12930012A94F /* whack.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA218263198D12930012A94F /* whack.wav */; };
+		FA32FA8A199960DF00B712BF /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FA32FA89199960DF00B712BF /* assets.atlas */; };
+		FAAAD1A61997B333006C2094 /* landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD19C1997B333006C2094 /* landscape@2x.png */; };
+		FAAAD1A71997B333006C2094 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD19D1997B333006C2094 /* logo@2x.png */; };
+		FAAAD1A81997B333006C2094 /* obstacle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD19E1997B333006C2094 /* obstacle@2x.png */; };
+		FAAAD1A91997B333006C2094 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD19F1997B333006C2094 /* play@2x.png */; };
+		FAAAD1AA1997B333006C2094 /* rate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD1A01997B333006C2094 /* rate@2x.png */; };
+		FAAAD1AB1997B333006C2094 /* tutorial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD1A11997B333006C2094 /* tutorial@2x.png */; };
+		FAAAD1AD1997BC43006C2094 /* tapToStart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD1AC1997BC43006C2094 /* tapToStart@2x.png */; };
+		FAAAD1B11997BF3A006C2094 /* gameOver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD1B01997BF3A006C2094 /* gameOver@2x.png */; };
+		FAF521581998D7F500FE76FC /* okayButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF521561998D7F500FE76FC /* okayButton@2x.png */; };
+		FAF521591998D7F500FE76FC /* shareButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF521571998D7F500FE76FC /* shareButton@2x.png */; };
+		FAFD65F31998CAB700B99136 /* scoreCard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFD65F21998CAB700B99136 /* scoreCard@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,20 +62,22 @@
 			containerPortal = FA2181FF198D10980012A94F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FA218206198D10990012A94F;
-			remoteInfo = FlappyYeezus;
+			remoteInfo = FlappyKanye;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA218207198D10990012A94F /* FlappyYeezus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyYeezus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA12DC2A1992249F005633ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		FA12DC3A199249C5005633ED /* flatFg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flatFg@2x.png"; sourceTree = "<group>"; };
+		FA218207198D10990012A94F /* FlappyKanye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyKanye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA21820A198D10990012A94F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA21820C198D10990012A94F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FA21820E198D10990012A94F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA218210198D10990012A94F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		FA218214198D10990012A94F /* Flappy Yeezus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flappy Yeezus-Info.plist"; sourceTree = "<group>"; };
+		FA218214198D10990012A94F /* FlappyKanye-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyKanye-Info.plist"; sourceTree = "<group>"; };
 		FA218216198D10990012A94F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA218218198D10990012A94F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA21821A198D10990012A94F /* Flappy Yeezus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flappy Yeezus-Prefix.pch"; sourceTree = "<group>"; };
+		FA21821A198D10990012A94F /* FlappyKanye-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlappyKanye-Prefix.pch"; sourceTree = "<group>"; };
 		FA21821B198D10990012A94F /* YBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBAppDelegate.h; sourceTree = "<group>"; };
 		FA21821C198D10990012A94F /* YBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAppDelegate.m; sourceTree = "<group>"; };
 		FA21821F198D10990012A94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,12 +86,11 @@
 		FA218224198D10990012A94F /* YBMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBMyScene.h; sourceTree = "<group>"; };
 		FA218225198D10990012A94F /* YBMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBMyScene.m; sourceTree = "<group>"; };
 		FA218227198D10990012A94F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
-		FA218229198D10990012A94F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FA21822F198D10990012A94F /* FlappyYeezusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyYeezusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA21822F198D10990012A94F /* FlappyKanyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyKanyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA218230198D10990012A94F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FA218238198D10990012A94F /* FlappyYeezusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyYeezusTests-Info.plist"; sourceTree = "<group>"; };
+		FA218238198D10990012A94F /* FlappyKanyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyKanyeTests-Info.plist"; sourceTree = "<group>"; };
 		FA21823A198D10990012A94F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FA21823C198D10990012A94F /* FlappyYeezusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyYeezusTests.m; sourceTree = "<group>"; };
+		FA21823C198D10990012A94F /* FlappyKanyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyKanyeTests.m; sourceTree = "<group>"; };
 		FA218248198D12930012A94F /* backgrounds.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = backgrounds.atlas; sourceTree = "<group>"; };
 		FA218249198D12930012A94F /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 		FA21824B198D12930012A94F /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
@@ -103,6 +117,18 @@
 		FA218261198D12930012A94F /* hitGround.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitGround.wav; sourceTree = "<group>"; };
 		FA218262198D12930012A94F /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
 		FA218263198D12930012A94F /* whack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whack.wav; sourceTree = "<group>"; };
+		FA32FA89199960DF00B712BF /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
+		FAAAD19C1997B333006C2094 /* landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "landscape@2x.png"; path = "Art/sprites/landscape@2x.png"; sourceTree = "<group>"; };
+		FAAAD19D1997B333006C2094 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "Art/sprites/logo@2x.png"; sourceTree = "<group>"; };
+		FAAAD19E1997B333006C2094 /* obstacle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "obstacle@2x.png"; path = "Art/sprites/obstacle@2x.png"; sourceTree = "<group>"; };
+		FAAAD19F1997B333006C2094 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play@2x.png"; path = "Art/sprites/play@2x.png"; sourceTree = "<group>"; };
+		FAAAD1A01997B333006C2094 /* rate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rate@2x.png"; path = "Art/sprites/rate@2x.png"; sourceTree = "<group>"; };
+		FAAAD1A11997B333006C2094 /* tutorial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tutorial@2x.png"; path = "Art/sprites/tutorial@2x.png"; sourceTree = "<group>"; };
+		FAAAD1AC1997BC43006C2094 /* tapToStart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tapToStart@2x.png"; path = "Art/sprites/tapToStart@2x.png"; sourceTree = "<group>"; };
+		FAAAD1B01997BF3A006C2094 /* gameOver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gameOver@2x.png"; path = "Art/sprites/gameOver@2x.png"; sourceTree = "<group>"; };
+		FAF521561998D7F500FE76FC /* okayButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "okayButton@2x.png"; path = "Art/sprites/okayButton@2x.png"; sourceTree = "<group>"; };
+		FAF521571998D7F500FE76FC /* shareButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shareButton@2x.png"; path = "Art/sprites/shareButton@2x.png"; sourceTree = "<group>"; };
+		FAFD65F21998CAB700B99136 /* scoreCard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "scoreCard@2x.png"; path = "Art/sprites/scoreCard@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +159,8 @@
 		FA2181FE198D10980012A94F = {
 			isa = PBXGroup;
 			children = (
-				FA218212198D10990012A94F /* FlappyYeezus */,
-				FA218236198D10990012A94F /* FlappyYeezusTests */,
+				FA218212198D10990012A94F /* FlappyKanye */,
+				FA218236198D10990012A94F /* FlappyKanyeTests */,
 				FA218209198D10990012A94F /* Frameworks */,
 				FA218208198D10990012A94F /* Products */,
 			);
@@ -143,8 +169,8 @@
 		FA218208198D10990012A94F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA218207198D10990012A94F /* FlappyYeezus.app */,
-				FA21822F198D10990012A94F /* FlappyYeezusTests.xctest */,
+				FA218207198D10990012A94F /* FlappyKanye.app */,
+				FA21822F198D10990012A94F /* FlappyKanyeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,10 +187,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA218212198D10990012A94F /* FlappyYeezus */ = {
+		FA218212198D10990012A94F /* FlappyKanye */ = {
 			isa = PBXGroup;
 			children = (
 				FA218246198D12930012A94F /* Resources */,
+				FA12DC2A1992249F005633ED /* Images.xcassets */,
 				FA21821B198D10990012A94F /* YBAppDelegate.h */,
 				FA21821C198D10990012A94F /* YBAppDelegate.m */,
 				FA21821E198D10990012A94F /* Main.storyboard */,
@@ -173,38 +200,35 @@
 				FA218224198D10990012A94F /* YBMyScene.h */,
 				FA218225198D10990012A94F /* YBMyScene.m */,
 				FA218227198D10990012A94F /* Spaceship.png */,
-				FA218229198D10990012A94F /* Images.xcassets */,
 				FA218213198D10990012A94F /* Supporting Files */,
 			);
-			name = FlappyYeezus;
-			path = FlappyYeezus;
+			path = FlappyKanye;
 			sourceTree = "<group>";
 		};
 		FA218213198D10990012A94F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA218214198D10990012A94F /* Flappy Yeezus-Info.plist */,
+				FA218214198D10990012A94F /* FlappyKanye-Info.plist */,
 				FA218215198D10990012A94F /* InfoPlist.strings */,
 				FA218218198D10990012A94F /* main.m */,
-				FA21821A198D10990012A94F /* Flappy Yeezus-Prefix.pch */,
+				FA21821A198D10990012A94F /* FlappyKanye-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FA218236198D10990012A94F /* FlappyYeezusTests */ = {
+		FA218236198D10990012A94F /* FlappyKanyeTests */ = {
 			isa = PBXGroup;
 			children = (
-				FA21823C198D10990012A94F /* FlappyYeezusTests.m */,
+				FA21823C198D10990012A94F /* FlappyKanyeTests.m */,
 				FA218237198D10990012A94F /* Supporting Files */,
 			);
-			name = FlappyYeezusTests;
-			path = FlappyYeezusTests;
+			path = FlappyKanyeTests;
 			sourceTree = "<group>";
 		};
 		FA218237198D10990012A94F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA218238198D10990012A94F /* FlappyYeezusTests-Info.plist */,
+				FA218238198D10990012A94F /* FlappyKanyeTests-Info.plist */,
 				FA218239198D10990012A94F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -213,19 +237,23 @@
 		FA218246198D12930012A94F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FA218247198D12930012A94F /* Art */,
+				FAAAD1831997B1FB006C2094 /* Sprites */,
+				FA218247198D12930012A94F /* SceneArt */,
 				FA21824A198D12930012A94F /* SKTUtils */,
 				FA21825C198D12930012A94F /* Sounds */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		FA218247198D12930012A94F /* Art */ = {
+		FA218247198D12930012A94F /* SceneArt */ = {
 			isa = PBXGroup;
 			children = (
+				FA32FA89199960DF00B712BF /* assets.atlas */,
+				FA12DC3A199249C5005633ED /* flatFg@2x.png */,
 				FA218248198D12930012A94F /* backgrounds.atlas */,
 				FA218249198D12930012A94F /* sprites.atlas */,
 			);
+			name = SceneArt;
 			path = Art;
 			sourceTree = "<group>";
 		};
@@ -267,12 +295,30 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		FAAAD1831997B1FB006C2094 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAD1AC1997BC43006C2094 /* tapToStart@2x.png */,
+				FAF521561998D7F500FE76FC /* okayButton@2x.png */,
+				FAF521571998D7F500FE76FC /* shareButton@2x.png */,
+				FAAAD19C1997B333006C2094 /* landscape@2x.png */,
+				FAAAD19D1997B333006C2094 /* logo@2x.png */,
+				FAAAD19E1997B333006C2094 /* obstacle@2x.png */,
+				FAAAD19F1997B333006C2094 /* play@2x.png */,
+				FAAAD1A01997B333006C2094 /* rate@2x.png */,
+				FAFD65F21998CAB700B99136 /* scoreCard@2x.png */,
+				FAAAD1A11997B333006C2094 /* tutorial@2x.png */,
+				FAAAD1B01997BF3A006C2094 /* gameOver@2x.png */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA218206198D10990012A94F /* FlappyYeezus */ = {
+		FA218206198D10990012A94F /* FlappyKanye */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA218240198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyYeezus" */;
+			buildConfigurationList = FA218240198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyKanye" */;
 			buildPhases = (
 				FA218203198D10990012A94F /* Sources */,
 				FA218204198D10990012A94F /* Frameworks */,
@@ -282,14 +328,14 @@
 			);
 			dependencies = (
 			);
-			name = FlappyYeezus;
-			productName = FlappyYeezus;
-			productReference = FA218207198D10990012A94F /* FlappyYeezus.app */;
+			name = FlappyKanye;
+			productName = FlappyKanye;
+			productReference = FA218207198D10990012A94F /* FlappyKanye.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA21822E198D10990012A94F /* FlappyYeezusTests */ = {
+		FA21822E198D10990012A94F /* FlappyKanyeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA218243198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyYeezusTests" */;
+			buildConfigurationList = FA218243198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyKanyeTests" */;
 			buildPhases = (
 				FA21822B198D10990012A94F /* Sources */,
 				FA21822C198D10990012A94F /* Frameworks */,
@@ -300,9 +346,9 @@
 			dependencies = (
 				FA218235198D10990012A94F /* PBXTargetDependency */,
 			);
-			name = FlappyYeezusTests;
-			productName = FlappyYeezusTests;
-			productReference = FA21822F198D10990012A94F /* FlappyYeezusTests.xctest */;
+			name = FlappyKanyeTests;
+			productName = FlappyKanyeTests;
+			productReference = FA21822F198D10990012A94F /* FlappyKanyeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -320,7 +366,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA218202198D10980012A94F /* Build configuration list for PBXProject "FlappyYeezus" */;
+			buildConfigurationList = FA218202198D10980012A94F /* Build configuration list for PBXProject "FlappyKanye" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -333,8 +379,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA218206198D10990012A94F /* FlappyYeezus */,
-				FA21822E198D10990012A94F /* FlappyYeezusTests */,
+				FA218206198D10990012A94F /* FlappyKanye */,
+				FA21822E198D10990012A94F /* FlappyKanyeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -344,17 +390,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAAD1A71997B333006C2094 /* logo@2x.png in Resources */,
 				FA218274198D12930012A94F /* whack.wav in Resources */,
 				FA218217198D10990012A94F /* InfoPlist.strings in Resources */,
 				FA21826E198D12930012A94F /* coin.wav in Resources */,
-				FA21822A198D10990012A94F /* Images.xcassets in Resources */,
+				FAF521581998D7F500FE76FC /* okayButton@2x.png in Resources */,
+				FAAAD1AB1997B333006C2094 /* tutorial@2x.png in Resources */,
+				FA32FA8A199960DF00B712BF /* assets.atlas in Resources */,
+				FAAAD1A61997B333006C2094 /* landscape@2x.png in Resources */,
 				FA218264198D12930012A94F /* backgrounds.atlas in Resources */,
+				FAAAD1A81997B333006C2094 /* obstacle@2x.png in Resources */,
 				FA218228198D10990012A94F /* Spaceship.png in Resources */,
 				FA218272198D12930012A94F /* hitGround.wav in Resources */,
+				FAAAD1B11997BF3A006C2094 /* gameOver@2x.png in Resources */,
 				FA218273198D12930012A94F /* pop.wav in Resources */,
 				FA218265198D12930012A94F /* sprites.atlas in Resources */,
 				FA21826F198D12930012A94F /* ding.wav in Resources */,
+				FAAAD1AA1997B333006C2094 /* rate@2x.png in Resources */,
+				FAAAD1AD1997BC43006C2094 /* tapToStart@2x.png in Resources */,
+				FA12DC2B1992249F005633ED /* Images.xcassets in Resources */,
+				FAAAD1A91997B333006C2094 /* play@2x.png in Resources */,
+				FAF521591998D7F500FE76FC /* shareButton@2x.png in Resources */,
+				FA12DC3B199249C5005633ED /* flatFg@2x.png in Resources */,
 				FA218271198D12930012A94F /* flapping.wav in Resources */,
+				FAFD65F31998CAB700B99136 /* scoreCard@2x.png in Resources */,
 				FA218220198D10990012A94F /* Main.storyboard in Resources */,
 				FA218270198D12930012A94F /* falling.wav in Resources */,
 			);
@@ -394,7 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA21823D198D10990012A94F /* FlappyYeezusTests.m in Sources */,
+				FA21823D198D10990012A94F /* FlappyKanyeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +462,7 @@
 /* Begin PBXTargetDependency section */
 		FA218235198D10990012A94F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA218206198D10990012A94F /* FlappyYeezus */;
+			target = FA218206198D10990012A94F /* FlappyKanye */;
 			targetProxy = FA218234198D10990012A94F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -512,9 +571,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlappyYeezus/Flappy Yeezus-Prefix.pch";
-				INFOPLIST_FILE = "FlappyYeezus/Flappy Yeezus-Info.plist";
-				PRODUCT_NAME = FlappyYeezus;
+				GCC_PREFIX_HEADER = "FlappyKanye/FlappyKanye-Prefix.pch";
+				INFOPLIST_FILE = "FlappyKanye/FlappyKanye-Info.plist";
+				PRODUCT_NAME = FlappyKanye;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -526,9 +585,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlappyYeezus/Flappy Yeezus-Prefix.pch";
-				INFOPLIST_FILE = "FlappyYeezus/Flappy Yeezus-Info.plist";
-				PRODUCT_NAME = FlappyYeezus;
+				GCC_PREFIX_HEADER = "FlappyKanye/FlappyKanye-Prefix.pch";
+				INFOPLIST_FILE = "FlappyKanye/FlappyKanye-Info.plist";
+				PRODUCT_NAME = FlappyKanye;
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -537,20 +596,20 @@
 		FA218244198D10990012A94F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyYeezus.app/FlappyYeezus";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyKanye.app/FlappyKanye";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlappyYeezus/FlappyYeezus-Prefix.pch";
+				GCC_PREFIX_HEADER = "FlappyKanye/FlappyKanye-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "FlappyYeezusTests/FlappyYeezusTests-Info.plist";
-				PRODUCT_NAME = FlappyYeezusTests;
+				INFOPLIST_FILE = "FlappyKanyeTests/FlappyKanyeTests-Info.plist";
+				PRODUCT_NAME = FlappyKanyeTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -559,16 +618,16 @@
 		FA218245198D10990012A94F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyYeezus.app/FlappyYeezus";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyKanye.app/FlappyKanye";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlappyYeezus/FlappyYeezus-Prefix.pch";
-				INFOPLIST_FILE = "FlappyYeezusTests/FlappyYeezusTests-Info.plist";
-				PRODUCT_NAME = FlappyYeezusTests;
+				GCC_PREFIX_HEADER = "FlappyKanye/FlappyKanye-Prefix.pch";
+				INFOPLIST_FILE = "FlappyKanyeTests/FlappyKanyeTests-Info.plist";
+				PRODUCT_NAME = FlappyKanyeTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -577,7 +636,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA218202198D10980012A94F /* Build configuration list for PBXProject "FlappyYeezus" */ = {
+		FA218202198D10980012A94F /* Build configuration list for PBXProject "FlappyKanye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA21823E198D10990012A94F /* Debug */,
@@ -586,7 +645,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA218240198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyYeezus" */ = {
+		FA218240198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyKanye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA218241198D10990012A94F /* Debug */,
@@ -595,7 +654,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA218243198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyYeezusTests" */ = {
+		FA218243198D10990012A94F /* Build configuration list for PBXNativeTarget "FlappyKanyeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA218244198D10990012A94F /* Debug */,
