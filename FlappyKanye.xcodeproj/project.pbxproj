@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA12DC2B1992249F005633ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA12DC2A1992249F005633ED /* Images.xcassets */; };
 		FA21820B198D10990012A94F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820A198D10990012A94F /* Foundation.framework */; };
 		FA21820D198D10990012A94F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820C198D10990012A94F /* CoreGraphics.framework */; };
 		FA21820F198D10990012A94F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21820E198D10990012A94F /* UIKit.framework */; };
@@ -34,13 +33,14 @@
 		FA21826D198D12930012A94F /* SKTTimingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21825A198D12930012A94F /* SKTTimingFunctions.m */; };
 		FA21826E198D12930012A94F /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA21825D198D12930012A94F /* coin.wav */; };
 		FA21826F198D12930012A94F /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA21825E198D12930012A94F /* ding.wav */; };
-		FA218270198D12930012A94F /* falling.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA21825F198D12930012A94F /* falling.wav */; };
-		FA218271198D12930012A94F /* flapping.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA218260198D12930012A94F /* flapping.wav */; };
-		FA218272198D12930012A94F /* hitGround.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA218261198D12930012A94F /* hitGround.wav */; };
 		FA218273198D12930012A94F /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA218262198D12930012A94F /* pop.wav */; };
-		FA218274198D12930012A94F /* whack.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA218263198D12930012A94F /* whack.wav */; };
 		FA32FA8A199960DF00B712BF /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FA32FA89199960DF00B712BF /* assets.atlas */; };
 		FAC1A83D199A86A500D35B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC1A83C199A86A500D35B9A /* Images.xcassets */; };
+		FAC1A840199B7F2500D35B9A /* falling.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC1A83F199B7F2500D35B9A /* falling.wav */; };
+		FAC1A842199B7FD300D35B9A /* intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC1A841199B7FD300D35B9A /* intro.wav */; };
+		FAC1A844199B803400D35B9A /* whack.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAC1A843199B803400D35B9A /* whack.wav */; };
+		FAF00AAA199BF5D400311F6C /* flapping.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF00AA9199BF5D400311F6C /* flapping.wav */; };
+		FAF00AAC199BF80900311F6C /* hitGround.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF00AAB199BF80900311F6C /* hitGround.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA12DC2A1992249F005633ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		FA218207198D10990012A94F /* FlappyKanye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyKanye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA21820A198D10990012A94F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA21820C198D10990012A94F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,13 +95,14 @@
 		FA21825B198D12930012A94F /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
 		FA21825D198D12930012A94F /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
 		FA21825E198D12930012A94F /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
-		FA21825F198D12930012A94F /* falling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = falling.wav; sourceTree = "<group>"; };
-		FA218260198D12930012A94F /* flapping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flapping.wav; sourceTree = "<group>"; };
-		FA218261198D12930012A94F /* hitGround.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitGround.wav; sourceTree = "<group>"; };
 		FA218262198D12930012A94F /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
-		FA218263198D12930012A94F /* whack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whack.wav; sourceTree = "<group>"; };
 		FA32FA89199960DF00B712BF /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
 		FAC1A83C199A86A500D35B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAC1A83F199B7F2500D35B9A /* falling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = falling.wav; sourceTree = "<group>"; };
+		FAC1A841199B7FD300D35B9A /* intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = intro.wav; sourceTree = "<group>"; };
+		FAC1A843199B803400D35B9A /* whack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whack.wav; sourceTree = "<group>"; };
+		FAF00AA9199BF5D400311F6C /* flapping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flapping.wav; sourceTree = "<group>"; };
+		FAF00AAB199BF80900311F6C /* hitGround.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitGround.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +165,6 @@
 			isa = PBXGroup;
 			children = (
 				FA218246198D12930012A94F /* Resources */,
-				FA12DC2A1992249F005633ED /* Images.xcassets */,
 				FA21821B198D10990012A94F /* YBAppDelegate.h */,
 				FA21821C198D10990012A94F /* YBAppDelegate.m */,
 				FA21821E198D10990012A94F /* Main.storyboard */,
@@ -255,13 +254,14 @@
 		FA21825C198D12930012A94F /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				FAC1A841199B7FD300D35B9A /* intro.wav */,
 				FA21825D198D12930012A94F /* coin.wav */,
+				FAF00AA9199BF5D400311F6C /* flapping.wav */,
+				FAC1A83F199B7F2500D35B9A /* falling.wav */,
+				FAF00AAB199BF80900311F6C /* hitGround.wav */,
 				FA21825E198D12930012A94F /* ding.wav */,
-				FA21825F198D12930012A94F /* falling.wav */,
-				FA218260198D12930012A94F /* flapping.wav */,
-				FA218261198D12930012A94F /* hitGround.wav */,
 				FA218262198D12930012A94F /* pop.wav */,
-				FA218263198D12930012A94F /* whack.wav */,
+				FAC1A843199B803400D35B9A /* whack.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -314,6 +314,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Builtby Destiny";
 				TargetAttributes = {
+					FA218206198D10990012A94F = {
+						DevelopmentTeam = W4G4MN4RCB;
+					};
 					FA21822E198D10990012A94F = {
 						TestTargetID = FA218206198D10990012A94F;
 					};
@@ -343,19 +346,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA218274198D12930012A94F /* whack.wav in Resources */,
 				FA218217198D10990012A94F /* InfoPlist.strings in Resources */,
 				FA21826E198D12930012A94F /* coin.wav in Resources */,
 				FA32FA8A199960DF00B712BF /* assets.atlas in Resources */,
-				FA218272198D12930012A94F /* hitGround.wav in Resources */,
 				FA218273198D12930012A94F /* pop.wav in Resources */,
 				FA218265198D12930012A94F /* sprites.atlas in Resources */,
 				FA21826F198D12930012A94F /* ding.wav in Resources */,
+				FAC1A840199B7F2500D35B9A /* falling.wav in Resources */,
 				FAC1A83D199A86A500D35B9A /* Images.xcassets in Resources */,
-				FA12DC2B1992249F005633ED /* Images.xcassets in Resources */,
-				FA218271198D12930012A94F /* flapping.wav in Resources */,
+				FAF00AAA199BF5D400311F6C /* flapping.wav in Resources */,
+				FAC1A842199B7FD300D35B9A /* intro.wav in Resources */,
+				FAF00AAC199BF80900311F6C /* hitGround.wav in Resources */,
 				FA218220198D10990012A94F /* Main.storyboard in Resources */,
-				FA218270198D12930012A94F /* falling.wav in Resources */,
+				FAC1A844199B803400D35B9A /* whack.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +454,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Destiny Makuyana (4AD7C9TLAS)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -467,8 +470,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "452b3593-669a-4537-a22e-5240448bdd89";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -489,7 +493,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Destiny Makuyana (W4G4MN4RCB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Destiny Makuyana (W4G4MN4RCB)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -499,7 +504,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "452b3593-669a-4537-a22e-5240448bdd89";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -510,10 +516,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Destiny Makuyana (4AD7C9TLAS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Destiny Makuyana (4AD7C9TLAS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlappyKanye/FlappyKanye-Prefix.pch";
 				INFOPLIST_FILE = "FlappyKanye/FlappyKanye-Info.plist";
 				PRODUCT_NAME = FlappyKanye;
+				PROVISIONING_PROFILE = "452b3593-669a-4537-a22e-5240448bdd89";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -524,10 +533,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Destiny Makuyana (4AD7C9TLAS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Destiny Makuyana (4AD7C9TLAS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlappyKanye/FlappyKanye-Prefix.pch";
 				INFOPLIST_FILE = "FlappyKanye/FlappyKanye-Info.plist";
 				PRODUCT_NAME = FlappyKanye;
+				PROVISIONING_PROFILE = "452b3593-669a-4537-a22e-5240448bdd89";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};

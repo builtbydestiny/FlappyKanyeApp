@@ -1,0 +1,307 @@
+TFlappyYeezus
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch.pch FlappyYeezus/Flappy\ Yeezus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/main.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKTEffects.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/YBMyScene.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531E777900000000000003B4
+t1394505593
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E7788000000000000019E
+t1394505608
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531E77BA0000000000000ADC
+t1394505658
+s2780
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.o
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKTEffects.o
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/YBMyScene.o
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy Yeezus-Prefix.pch.pch
+t1407146366
+s145516
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Flappy Yeezus-Prefix.pch
+c0000000053DCEE1100000000000001B5
+t1406987793
+s437
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKAction+SKTExtras.m
+c000000005299DCC20000000000000694
+t1385815234
+s1684
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+c000000005299DCC2000000000000055E
+t1385815234
+s1374
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.m
+c000000005299DCC20000000000000B36
+t1385815234
+s2870
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTEffects.m
+c000000005299DCC200000000000013D3
+t1385815234
+s5075
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m
+c0000000053DF597C0000000000001DA5
+t1407146364
+s7589
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/main.m
+c0000000053DCD919000000000000015C
+t1406982425
+s348
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKAction+SKTExtras.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKAction+SKTSpecialEffects.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTDebugDraw.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTAudio.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTEffects.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTTimingFunctions.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/YBAppDelegate.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/YBViewController.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb6bf7ffd908fb941^240a91fd908fb941^---0#1#1#--18"Check dependencies36"1F53E59E-2A6A-4244-8A61-E3F8359F9464-
+
+CCompileAssetCatalog /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/FlappyYeezus.app /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Images.xcassets
+r0
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKAction+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKAction+SKTSpecialEffects.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKAction+SKTSpecialEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428839166.472669
+e428839166.680787
+r1
+xCompileC
+xBuild/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.m264"CompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0a2b79fe908fb941^4756aefe908fb941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.m0000000000000000^4145"CompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKEmitterNode+SKTExtras.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o36"78672161-37AE-4AC1-BB00-E78206C878E6-
+b95C65A34-F796-45CE-A4DB-790BFA76D5BB
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKNode+SKTDebugDraw.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTDebugDraw.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428839166.326300
+e428839166.680830
+r1
+xCompileC
+xBuild/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.m250"CompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilere6b053fe908fb941^124baefe908fb941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.m0000000000000000^4103"CompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTExtras.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o36"14E40855-9BEB-4629-B966-CFBFFF1BB49B-
+b95C65A34-F796-45CE-A4DB-790BFA76D5BB
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKTAudio.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTAudio.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKTEffects.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428839166.325778
+e428839166.680845
+r1
+xCompileC
+xBuild/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKTEffects.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTEffects.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTEffects.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTEffects.h
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTTimingFunctions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTEffects.m238"CompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKTEffects.o FlappyYeezus/Resources/SKTUtils/SKTEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler789753fe908fb941^af5daefe908fb941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTEffects.m0000000000000000^4067"CompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKTEffects.o FlappyYeezus/Resources/SKTUtils/SKTEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKTEffects.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKTEffects.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTEffects.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKTEffects.o36"39ACDC5B-B9D7-45D8-826F-F4D2EF131DD1-
+b95C65A34-F796-45CE-A4DB-790BFA76D5BB
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/SKTTimingFunctions.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTTimingFunctions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/YBAppDelegate.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/YBAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/YBMyScene.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428839166.327602
+e428839166.479159
+r0
+xCompileC
+xBuild/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/YBMyScene.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/YBMyScene.h
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m:206:6: error: expected expression
+o    [];
+o     ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m217"CompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/YBMyScene.o FlappyYeezus/YBMyScene.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compileref3954fe908fb941^7ba37afe908fb941^-146"/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m:206:6: error: expected expression    [];     ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@19"Expected expression-428839166#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@88"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m0000000000000000^205#5#205#5#6562#0#11"Parse Issue--0#0#1#-19%DVTDocumentLocation4@88"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m0000000000000000^4023"CompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/YBMyScene.o FlappyYeezus/YBMyScene.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/YBMyScene.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/YBMyScene.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/YBMyScene.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/YBMyScene.o36"8CAE3EC5-19B5-45B5-844F-9997CC72A9CA-
+b95C65A34-F796-45CE-A4DB-790BFA76D5BB
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/YBViewController.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/YBViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/main.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428839166.325459
+e428839166.472272
+r1
+xCompileC
+xBuild/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/main.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/main.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/YBAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/main.m207"CompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/main.o FlappyYeezus/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler647553fe908fb941^d9e878fe908fb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyYeezus/FlappyYeezus/main.m0000000000000000^3993"CompileC Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/main.o FlappyYeezus/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/main.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/main.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/Objects-normal/x86_64/main.o36"1382DF97-3408-4A55-8EC7-601957EF3E62-
+b95C65A34-F796-45CE-A4DB-790BFA76D5BB
+
+CCompileStoryboard /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Base.lproj/Main.storyboard
+r0
+
+CCopyStringsFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/FlappyYeezus.app/en.lproj/InfoPlist.strings FlappyYeezus/en.lproj/InfoPlist.strings
+r0
+
+CCpResource FlappyYeezus/Resources/Sounds/coin.wav Build/Products/Debug-iphonesimulator/FlappyYeezus.app/coin.wav
+r0
+
+CCpResource FlappyYeezus/Resources/Sounds/ding.wav Build/Products/Debug-iphonesimulator/FlappyYeezus.app/ding.wav
+r0
+
+CCpResource FlappyYeezus/Resources/Sounds/falling.wav Build/Products/Debug-iphonesimulator/FlappyYeezus.app/falling.wav
+r0
+
+CCpResource FlappyYeezus/Resources/Sounds/flapping.wav Build/Products/Debug-iphonesimulator/FlappyYeezus.app/flapping.wav
+r0
+
+CCpResource FlappyYeezus/Resources/Sounds/hitGround.wav Build/Products/Debug-iphonesimulator/FlappyYeezus.app/hitGround.wav
+r0
+
+CCpResource FlappyYeezus/Resources/Sounds/pop.wav Build/Products/Debug-iphonesimulator/FlappyYeezus.app/pop.wav
+r0
+
+CCpResource FlappyYeezus/Resources/Sounds/whack.wav Build/Products/Debug-iphonesimulator/FlappyYeezus.app/whack.wav
+r0
+
+CCpResource FlappyYeezus/Spaceship.png Build/Products/Debug-iphonesimulator/FlappyYeezus.app/Spaceship.png
+r0
+
+CGenerateDSYMFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/FlappyYeezus.app.dSYM /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/FlappyYeezus.app/FlappyYeezus
+r0
+
+CGenerating texture atlas from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/Art/backgrounds.atlas
+r0
+
+CGenerating texture atlas from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Resources/Art/sprites.atlas
+r0
+
+CLd /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/FlappyYeezus.app/FlappyYeezus normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/FlappyYeezus.app/Info.plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Flappy\ Yeezus-Info.plist
+r0
+
+CProcessPCH /Users/Macbook/Library/Developer/Xcode/DerivedData/FlappyYeezus-cgsbdkbffxyrvubvsoyqlwxgibar/Index/PrecompiledHeaders/Flappy\ Yeezus-Prefix-bvkggausxfbvvzbgglgidyhvmppr_ast/Flappy\ Yeezus-Prefix.pch.pch FlappyYeezus/Flappy\ Yeezus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch.pch FlappyYeezus/Flappy\ Yeezus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428839165.568023
+e428839166.324420
+r1
+xProcessPCH
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy Yeezus-Prefix.pch.pch
+xFlappyYeezus/Flappy Yeezus-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Flappy Yeezus-Prefix.pch
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKTUtils.h
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKNode+SKTDebugDraw.h
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus/FlappyYeezus/Resources/SKTUtils/SKAction+SKTSpecialEffects.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Precompile FlappyYeezus/Flappy Yeezus-Prefix.pch239"ProcessPCH Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch.pch FlappyYeezus/Flappy\ Yeezus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilered8291fd908fb941^d81153fe908fb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyYeezus/FlappyYeezus/Flappy%20Yeezus-Prefix.pch0000000000000000^3900"ProcessPCH Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch.pch FlappyYeezus/Flappy\ Yeezus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyYeezus"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/FlappyYeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/FlappyYeezus.build/Debug-iphonesimulator/FlappyYeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch.dia -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch.d -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/FlappyYeezus/Flappy\ Yeezus-Prefix.pch -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-hkjmoliqssgmboaftykvuidsujql/Flappy\ Yeezus-Prefix.pch.pch36"906F5B0F-A48C-4D58-BA37-A6F7544A2DE0-
+b95C65A34-F796-45CE-A4DB-790BFA76D5BB
+
+CTouch /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyYeezus/Build/Products/Debug-iphonesimulator/FlappyYeezus.app
+r0
+

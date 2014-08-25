@@ -1,0 +1,1299 @@
+TFlappyKanye
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/FlappyKanye.app/ResourceRules.plist
+cProcessPCH /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch.pch FlappyKanye/FlappyKanye-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/main.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTEffects.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBMyScene.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBMyScene.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKEmitterNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTTimingFunctions.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBViewController.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBAppDelegate.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTDebugDraw.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTSpecialEffects.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTAudio.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTAudio.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye normal armv7s
+cCopyStringsFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/en.lproj/InfoPlist.strings FlappyKanye/en.lproj/InfoPlist.strings
+cCpResource FlappyKanye/Resources/Sounds/coin.wav Build/Products/Debug-iphoneos/FlappyKanye.app/coin.wav
+cCpResource FlappyKanye/Resources/Sounds/pop.wav Build/Products/Debug-iphoneos/FlappyKanye.app/pop.wav
+cGenerating texture atlas from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Art/assets.atlas
+cGenerating texture atlas from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Art/sprites.atlas
+cCpResource FlappyKanye/Resources/Sounds/ding.wav Build/Products/Debug-iphoneos/FlappyKanye.app/ding.wav
+cCpResource FlappyKanye/Resources/Sounds/falling.wav Build/Products/Debug-iphoneos/FlappyKanye.app/falling.wav
+cCpResource FlappyKanye/Resources/Sounds/flapping.wav Build/Products/Debug-iphoneos/FlappyKanye.app/flapping.wav
+cCpResource FlappyKanye/Resources/Sounds/intro.wav Build/Products/Debug-iphoneos/FlappyKanye.app/intro.wav
+cCpResource FlappyKanye/Resources/Sounds/hitGround.wav Build/Products/Debug-iphoneos/FlappyKanye.app/hitGround.wav
+cCompileStoryboard /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Base.lproj/Main.storyboard
+cCpResource FlappyKanye/Resources/Sounds/whack.wav Build/Products/Debug-iphoneos/FlappyKanye.app/whack.wav
+cCompileAssetCatalog /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Images.xcassets
+cProcessInfoPlistFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/Info.plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/FlappyKanye-Info.plist
+cGenerateDSYMFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app.dSYM /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye
+cProcessProductPackaging /Users/Macbook/Library/MobileDevice/Provisioning\ Profiles/8fd79163-d07d-4acb-953d-6761a2ab93ec.mobileprovision /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision
+cTouch /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye.xcent
+cCodeSign /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053498A980000000000000132
+t1397328536
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000531E774F0000000000000094
+t1394505551
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000531E774F0000000000000096
+t1394505551
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531E774F000000000000036B
+t1394505551
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E7750000000000000019E
+t1394505552
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000531E77520000000000632990
+t1394505554
+s6498704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c00000000531E775200000000000D6100
+t1394505554
+s876800
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000531E77520000000000CF7800
+t1394505554
+s13596672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000531E7753000000000063A500
+t1394505555
+s6530304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000531E775300000000001A2540
+t1394505555
+s1713472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000531E7753000000000079C660
+t1394505555
+s7980640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053498A6000000000004D7BC0
+t1397328480
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000531E77540000000000433410
+t1394505556
+s4404240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+c00000000531E7754000000000011EB10
+t1394505556
+s1174288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000531E775400000000002CB700
+t1394505556
+s2930432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000531E77540000000000306EF0
+t1394505556
+s3174128
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000531E7754000000000006DCD0
+t1394505556
+s449744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531E77550000000000A90C10
+t1394505557
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/GLKit.framework/GLKit
+c00000000531E775500000000000F92E0
+t1394505557
+s1020640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+c00000000531E77570000000000D06500
+t1394505559
+s13657344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000531E775800000000000417E0
+t1394505560
+s268256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000531E77580000000000649DB0
+t1394505560
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000531E77580000000000186D60
+t1394505560
+s1600864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+c00000000531E77580000000000312240
+t1394505560
+s3220032
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531E775C0000000002759920
+t1394505564
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000531E776B0000000000385D50
+t1394505579
+s3693904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+c00000000531E7772000000000001E300
+t1394505586
+s123648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+c00000000531E7772000000000055EFE0
+t1394505586
+s5631968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+c00000000531E7772000000000002A880
+t1394505586
+s174208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+c00000000531E777200000000000458C0
+t1394505586
+s284864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+c00000000531E7772000000000003E3E0
+t1394505586
+s254944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+c00000000531E7773000000000002B130
+t1394505587
+s176432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+c00000000531E777300000000000E1FD0
+t1394505587
+s925648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000531E777300000000000A2A70
+t1394505587
+s666224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+c00000000531E7773000000000001E8A0
+t1394505587
+s125088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+c00000000531E7773000000000000BF00
+t1394505587
+s48896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+c00000000531E77730000000000034380
+t1394505587
+s213888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+c00000000531E77730000000000022F30
+t1394505587
+s143152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+c00000000531E7773000000000001E2A0
+t1394505587
+s123552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+c00000000531E77730000000000052520
+t1394505587
+s337184
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+c00000000531E77730000000000015F20
+t1394505587
+s89888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+c00000000531E777300000000001B90D0
+t1394505587
+s1806544
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+c00000000531E7773000000000001F170
+t1394505587
+s127344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+c00000000531E7773000000000002FCF0
+t1394505587
+s195824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+c00000000531E7773000000000008A150
+t1394505587
+s565584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+c00000000531E777300000000000B60E0
+t1394505587
+s745696
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+c00000000531E77730000000000078720
+t1394505587
+s493344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+c00000000531E777300000000000621F0
+t1394505587
+s401904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000531E777300000000000BDAE0
+t1394505587
+s776928
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+c00000000531E77730000000000039080
+t1394505587
+s233600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+c00000000531E7773000000000003CBC0
+t1394505587
+s248768
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+c00000000531E7773000000000002CFE0
+t1394505587
+s184288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+c00000000531E7773000000000001EB50
+t1394505587
+s125776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+c00000000531E7773000000000001EED0
+t1394505587
+s126672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+c00000000531E777300000000000236B0
+t1394505587
+s145072
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000531E777300000000000AC500
+t1394505587
+s705792
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531E77BA0000000000000ADC
+t1394505658
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c0000000053498A60000000000000514C
+t1397328480
+s20812
+
+N/Users/Macbook/Library/MobileDevice/Provisioning Profiles/8fd79163-d07d-4acb-953d-6761a2ab93ec.mobileprovision
+c0000000053EBEAAC0000000000001D8D
+t1407969964
+s7565
+
+N/Users/Macbook/Library/MobileDevice/Provisioning Profiles/9C0F8AC8-57C8-4F81-BD2A-0063086A5785.mobileprovision
+c0000000053EB87680000000000001DA5
+t1407944552
+s7589
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye.xcent
+t1407970062
+s511
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/FlappyKanye.LinkFileList
+c0000000053EBBBDB00000000000007A4
+t1407957979
+s1956
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTExtras.o
+t1407969990
+s8728
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTSpecialEffects.o
+t1407969991
+s52860
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKEmitterNode+SKTExtras.o
+t1407969990
+s44632
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTDebugDraw.o
+t1407969991
+s48328
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTExtras.o
+t1407969990
+s46692
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTAudio.o
+t1407969992
+s20672
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTEffects.o
+t1407969990
+s68552
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTTimingFunctions.o
+t1407969990
+s37080
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBAppDelegate.o
+t1407969992
+s63460
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBMyScene.o
+t1407969991
+s152752
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBViewController.o
+t1407969991
+s50376
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/main.o
+t1407969990
+s3896
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/assetcatalog_dependencies.txt
+t1407970005
+s1493
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/assetcatalog_generated_info.plist
+t1407970005
+s1354
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch.pch
+t1407969989
+s110064
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-eznzzvjlzpzsrcglafkfzbakohoc/FlappyKanye-Prefix.pch.pch
+t1407957983
+s110064
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app
+t1407970062
+s1054
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app.dSYM
+t1407970007
+s102
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/Base.lproj/Main.storyboardc
+t1407970007
+s170
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye
+t1407970009
+s146752
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/Info.plist
+t1407970007
+s1559
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/PkgInfo
+t1407970007
+s8
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/ResourceRules.plist
+t1407957979
+s150
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/assets.plist
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/assets.png
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/coin.wav
+t1407957986
+s20432
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/ding.wav
+t1407957986
+s53388
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision
+t1407970007
+s7565
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/en.lproj/InfoPlist.strings
+t1407957986
+s42
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/falling.wav
+t1407957986
+s292848
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/flapping.wav
+t1407959102
+s88244
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/hitGround.wav
+t1407959180
+s87596
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/intro.wav
+t1407957986
+s2135660
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/pop.wav
+t1407957986
+s4096
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/sprites.plist
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/sprites.png
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/whack.wav
+t1407957986
+s31084
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Base.lproj/Main.storyboard
+c0000000053DCD919000000000000071C
+t1406982425
+s1820
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/FlappyKanye-Info.plist
+c0000000053EBE7C30000000000000472
+t1407969219
+s1138
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/FlappyKanye-Prefix.pch
+c0000000053DCEE1100000000000001B5
+t1406987793
+s437
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Images.xcassets
+c0000000053EA7B300000000000000088
+t1407875888
+s136
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Art/assets.atlas
+c0000000053E9293200000000000000EE
+t1407789362
+s238
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Art/sprites.atlas
+c0000000053EB645500000000000004EA
+t1407935573
+s1258
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.h
+c000000005299DCC200000000000006F3
+t1385815234
+s1779
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.m
+c000000005299DCC20000000000000694
+t1385815234
+s1684
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.h
+c000000005299DCC20000000000000A69
+t1385815234
+s2665
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.m
+c000000005299DCC20000000000000C48
+t1385815234
+s3144
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.h
+c000000005299DCC2000000000000054C
+t1385815234
+s1356
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+c000000005299DCC2000000000000055E
+t1385815234
+s1374
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.h
+c000000005299DCC200000000000007D9
+t1385815234
+s2009
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.m
+c0000000053E0E65D0000000000000A8D
+t1407247965
+s2701
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.h
+c000000005299DCC2000000000000078C
+t1385815234
+s1932
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.m
+c000000005299DCC20000000000000B36
+t1385815234
+s2870
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTAudio.h
+c000000005299DCC200000000000005E3
+t1385815234
+s1507
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTAudio.m
+c000000005299DCC20000000000000B75
+t1385815234
+s2933
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.h
+c000000005299DCC20000000000000C2D
+t1385815234
+s3117
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.m
+c000000005299DCC200000000000013D3
+t1385815234
+s5075
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.h
+c000000005299DCC20000000000000DEB
+t1385815234
+s3563
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.m
+c000000005299DCC20000000000001AAD
+t1385815234
+s6829
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTUtils.h
+c000000005299DCC20000000000001B71
+t1385815234
+s7025
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Sounds/coin.wav
+c0000000052FD538A0000000000004FD0
+t1392333706
+s20432
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Sounds/ding.wav
+c0000000052FC27BA000000000000D08C
+t1392256954
+s53388
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Sounds/falling.wav
+c0000000053EB476100000000000477F0
+t1407928161
+s292848
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Sounds/flapping.wav
+c0000000052FBF37200000000000158B4
+t1392243570
+s88244
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Sounds/hitGround.wav
+c0000000052FBF4AD000000000001562C
+t1392243885
+s87596
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Sounds/intro.wav
+c0000000053EB481D000000000020966C
+t1407928349
+s2135660
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Sounds/pop.wav
+c0000000052FD4FE10000000000001000
+t1392332769
+s4096
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Sounds/whack.wav
+c0000000053EB401F000000000000796C
+t1407926303
+s31084
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBAppDelegate.h
+c0000000053DCD9190000000000000120
+t1406982425
+s288
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBAppDelegate.m
+c0000000053E0E59B0000000000000383
+t1407247771
+s899
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBMyScene.h
+c0000000053E0D8950000000000000289
+t1407244437
+s649
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBMyScene.m
+c0000000053EB791F0000000000006947
+t1407940895
+s26951
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBViewController.h
+c0000000053E0CB3E00000000000000DA
+t1407241022
+s218
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBViewController.m
+c0000000053E0E60C000000000000072E
+t1407247884
+s1838
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/en.lproj/InfoPlist.strings
+c0000000053DCD919000000000000002D
+t1406982425
+s45
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/main.m
+c0000000053DCD919000000000000015C
+t1406982425
+s348
+
+N/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Images.xcassets
+c0000000053E1ED330000000000000088
+t1407315251
+s136
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTAudio.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBAppDelegate.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBMyScene.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBViewController.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc9392d8e229cb941^40314a8e229cb941^---0#1#1#--18"Check dependencies36"8C0094E4-D01C-45CA-A904-861ACE707C66-
+
+CCodeSign /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app
+s429662862.647220
+e429662863.364509
+r1
+xCodeSign
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app: replacing existing signature
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CodeSign Build/Products/Debug-iphoneos/FlappyKanye.app54"CodeSign Build/Products/Debug-iphoneos/FlappyKanye.appdac8a58e229cb941^ac535d8f229cb941^-128"/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@109"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/0000000000000000^1092"CodeSign Build/Products/Debug-iphoneos/FlappyKanye.app    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Destiny Makuyana (4AD7C9TLAS)" and provisioning profile "iOS Team Provisioning Profile: *" (8fd79163-d07d-4acb-953d-6761a2ab93ec)    /usr/bin/codesign --force --sign 51C92F997E0D163DD350FB8148B207105577F95A --resource-rules=/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/ResourceRules.plist --entitlements /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye.xcent /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"7BD4B263-D3EA-4AE2-A438-5122FB09B334-
+bAE473DCB-7B61-4A01-9A8B-005EDAB75FF4
+
+CCompileAssetCatalog /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Images.xcassets
+s429662794.848696
+e429662805.258512
+r1
+xCompileAssetCatalog
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29@2x.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon40x40@2x.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon60x60@2x.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29~ipad.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29@2x~ipad.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon76x76~ipad.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon76x76@2x~ipad.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/LaunchImage-700@2x.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/LaunchImage-700-568h@2x.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/Assets.car
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"CompileAssetCatalog Build/Products/Debug-iphoneos/FlappyKanye.app FlappyKanye/Images.xcassets93"CompileAssetCatalog Build/Products/Debug-iphoneos/FlappyKanye.app FlappyKanye/Images.xcassets7d5ed94a229cb941^382f4255229cb941^-1512"/* com.apple.actool.compilation-results *//Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29@2x.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon40x40@2x.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon60x60@2x.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29~ipad.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29@2x~ipad.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon76x76~ipad.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon76x76@2x~ipad.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/LaunchImage-700@2x.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/LaunchImage-700-568h@2x.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/Assets.car/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@91"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Images.xcassets/0000000000000000^1158"CompileAssetCatalog Build/Products/Debug-iphoneos/FlappyKanye.app FlappyKanye/Images.xcassets    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Images.xcassets36"BFC32E21-C7F5-48C3-952D-E9AFCEA963D0-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileAssetCatalog /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Images.xcassets /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Images.xcassets
+s429650786.630796
+e429650803.952031
+r1
+xCompileAssetCatalog
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Images.xcassets
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29@2x.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon40x40@2x.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon60x60@2x.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29~ipad.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29@2x~ipad.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon76x76~ipad.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon76x76@2x~ipad.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/LaunchImage-700@2x.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/LaunchImage-700-568h@2x.png
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/Assets.car
+o/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"CompileAssetCatalog Build/Products/Debug-iphoneos/FlappyKanye.app FlappyKanye/Images.xcassets Images.xcassets109"CompileAssetCatalog Build/Products/Debug-iphoneos/FlappyKanye.app FlappyKanye/Images.xcassets Images.xcassets758ea162f39bb941^02baf373f39bb941^-1512"/* com.apple.actool.compilation-results *//Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29@2x.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon40x40@2x.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon60x60@2x.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29~ipad.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon29x29@2x~ipad.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon76x76~ipad.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/AppIcon76x76@2x~ipad.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/LaunchImage-700@2x.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/LaunchImage-700-568h@2x.png/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/Assets.car/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@79"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Images.xcassets/0000000000000000^1244"CompileAssetCatalog Build/Products/Debug-iphoneos/FlappyKanye.app FlappyKanye/Images.xcassets Images.xcassets    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Images.xcassets /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Images.xcassets36"00F66E9A-35DB-4880-AC19-C91325021416-
+b7C6890C1-F639-4394-BED0-970EC95E207B
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662790.754949
+e429662790.860029
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTExtras.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.m244"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTExtras.o FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler276ac146229cb941^a12cdc46229cb941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.m0000000000000000^3889"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTExtras.o FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTExtras.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTExtras.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTExtras.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTExtras.o36"970C7DD7-2823-43DE-B076-0E17A9EAFC24-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTSpecialEffects.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662791.046327
+e429662791.269802
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTSpecialEffects.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.h
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.m260"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTSpecialEffects.o FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler50010c47229cb941^7c0d4547229cb941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.m0000000000000000^3937"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTSpecialEffects.o FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTSpecialEffects.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTSpecialEffects.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTSpecialEffects.o36"B927D4BA-C94A-4D7C-BD16-372827FE1AB9-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKEmitterNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662790.750026
+e429662790.955449
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKEmitterNode+SKTExtras.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.m254"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKEmitterNode+SKTExtras.o FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler0729c046229cb941^e4f9f446229cb941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.m0000000000000000^3919"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKEmitterNode+SKTExtras.o FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKEmitterNode+SKTExtras.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKEmitterNode+SKTExtras.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKEmitterNode+SKTExtras.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKEmitterNode+SKTExtras.o36"2546DB6D-060D-400C-8E9B-9F7A31F8EB31-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTDebugDraw.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662790.955994
+e429662791.269618
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTDebugDraw.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.m246"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTDebugDraw.o FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerb9e0f446229cb941^10074547229cb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.m0000000000000000^3895"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTDebugDraw.o FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTDebugDraw.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTDebugDraw.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTDebugDraw.o36"412629BA-1A38-4B47-AA41-D25AEE0C54C9-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662789.577944
+e429662790.753170
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTExtras.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.m240"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTExtras.o FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerba329445229cb941^282cc146229cb941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.m0000000000000000^3877"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTExtras.o FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTExtras.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTExtras.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTExtras.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTExtras.o36"B5467919-5D6B-4FA4-A0BA-F6EADD5DD52C-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTAudio.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTAudio.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662791.134005
+e429662792.476024
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTAudio.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTAudio.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTAudio.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTAudio.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTAudio.m224"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTAudio.o FlappyKanye/Resources/SKTUtils/SKTAudio.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler75c72247229cb941^2ae17948229cb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTAudio.m0000000000000000^3829"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTAudio.o FlappyKanye/Resources/SKTUtils/SKTAudio.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTAudio.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTAudio.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTAudio.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTAudio.o36"1C799696-6FA2-4522-9660-11A94B0B0720-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTEffects.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662789.577066
+e429662790.760613
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTEffects.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.h
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.m228"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTEffects.o FlappyKanye/Resources/SKTUtils/SKTEffects.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd40d9445229cb941^a5bcc246229cb941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.m0000000000000000^3841"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTEffects.o FlappyKanye/Resources/SKTUtils/SKTEffects.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTEffects.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTEffects.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTEffects.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTEffects.o36"C41D8D4D-0478-4748-8A41-0AD16BE194E8-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTTimingFunctions.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662790.763262
+e429662790.904200
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTTimingFunctions.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.m244"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTTimingFunctions.o FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerdec9c346229cb941^d979e746229cb941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.m0000000000000000^3889"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTTimingFunctions.o FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTTimingFunctions.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTTimingFunctions.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTTimingFunctions.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTTimingFunctions.o36"604EF942-CB05-4739-94C9-956B58D0B14B-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBAppDelegate.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662790.904633
+e429662792.082238
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBAppDelegate.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBAppDelegate.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBAppDelegate.m215"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBAppDelegate.o FlappyKanye/YBAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler90c0e746229cb941^45121548229cb941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/YBAppDelegate.m0000000000000000^3821"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBAppDelegate.o FlappyKanye/YBAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBAppDelegate.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBAppDelegate.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBAppDelegate.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBAppDelegate.o36"241CA588-1A98-41B9-AD98-112B8CBBE2CB-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBMyScene.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBMyScene.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662789.578758
+e429662791.045461
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBMyScene.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBMyScene.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBMyScene.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBMyScene.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBMyScene.m207"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBMyScene.o FlappyKanye/YBMyScene.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd76d9445229cb941^0ea40b47229cb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/YBMyScene.m0000000000000000^3797"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBMyScene.o FlappyKanye/YBMyScene.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBMyScene.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBMyScene.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBMyScene.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBMyScene.o36"6C8F2C1A-6C7C-4786-9AEF-FFCD450E67E1-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBViewController.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662790.860527
+e429662791.133298
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBViewController.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBViewController.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBViewController.h
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBMyScene.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBViewController.m221"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBViewController.o FlappyKanye/YBViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compileref6fdc46229cb941^1c602247229cb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/YBViewController.m0000000000000000^3839"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBViewController.o FlappyKanye/YBViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBViewController.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBViewController.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/YBViewController.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBViewController.o36"1248FED2-0136-40A5-AED1-B06A01DD70E7-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/main.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662789.557651
+e429662790.748714
+r1
+xCompileC
+xBuild/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/main.o
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/main.m
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/YBAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/main.m197"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/main.o FlappyKanye/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler10e68e45229cb941^dc65bf46229cb941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/main.m0000000000000000^3767"CompileC Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/main.o FlappyKanye/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/main.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/main.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/main.o36"A5D83D6E-8ECF-46DB-88C4-8B1901BCC070-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCompileStoryboard /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Base.lproj/Main.storyboard
+s429662794.848498
+e429662807.414071
+r1
+xCompileStoryboard
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"CompileStoryboard FlappyKanye/Base.lproj/Main.storyboard56"CompileStoryboard FlappyKanye/Base.lproj/Main.storyboard6155d94a229cb941^4df86957229cb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Base.lproj/Main.storyboard0000000000000000^837"CompileStoryboard FlappyKanye/Base.lproj/Main.storyboard    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/Base.lproj/Main.storyboardc /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Base.lproj/Main.storyboard36"637C9BD8-654B-488C-9C4C-6E5A9A187970-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CCopyStringsFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/en.lproj/InfoPlist.strings FlappyKanye/en.lproj/InfoPlist.strings
+s429650786.588448
+e429650786.590584
+r1
+xCopyStringsFile
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/en.lproj/InfoPlist.strings
+xFlappyKanye/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy FlappyKanye/en.lproj/InfoPlist.strings127"CopyStringsFile Build/Products/Debug-iphoneos/FlappyKanye.app/en.lproj/InfoPlist.strings FlappyKanye/en.lproj/InfoPlist.stringsd0b69662f39bb941^59329762f39bb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/en.lproj/InfoPlist.strings0000000000000000^618"CopyStringsFile Build/Products/Debug-iphoneos/FlappyKanye.app/en.lproj/InfoPlist.strings FlappyKanye/en.lproj/InfoPlist.strings    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/en.lproj -- FlappyKanye/en.lproj/InfoPlist.strings36"D572FC6B-9330-4958-AFD5-1F0E28E81F4E-
+b7C6890C1-F639-4394-BED0-970EC95E207B
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/FlappyKanye.app/ResourceRules.plist
+s429650779.236994
+e429650779.238229
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/FlappyKanye.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphoneos/FlappyKanye.app/ResourceRules.plist198"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/FlappyKanye.app/ResourceRules.plist33c13c5bf39bb941^b1883d5bf39bb941^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/ResourceRules.plist0034488dddffdf42^782"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/FlappyKanye.app/ResourceRules.plist    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"BBB5306F-A07E-4C89-8122-897D7D89C85C-
+b7C6890C1-F639-4394-BED0-970EC95E207B
+
+CCpResource FlappyKanye/Resources/Sounds/coin.wav Build/Products/Debug-iphoneos/FlappyKanye.app/coin.wav
+s429650786.588615
+e429650786.591421
+r1
+xCpResource
+xFlappyKanye/Resources/Sounds/coin.wav
+xBuild/Products/Debug-iphoneos/FlappyKanye.app/coin.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Build/Products/Debug-iphoneos/FlappyKanye.app/coin.wav103"CpResource FlappyKanye/Resources/Sounds/coin.wav Build/Products/Debug-iphoneos/FlappyKanye.app/coin.wava0c59662f39bb941^5c739762f39bb941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/coin.wav0034488dddffdf42^657"CpResource FlappyKanye/Resources/Sounds/coin.wav Build/Products/Debug-iphoneos/FlappyKanye.app/coin.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Sounds/coin.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"8EFBA678-6245-415A-B0B8-2607D4C8FFA8-
+b7C6890C1-F639-4394-BED0-970EC95E207B
+
+CCpResource FlappyKanye/Resources/Sounds/ding.wav Build/Products/Debug-iphoneos/FlappyKanye.app/ding.wav
+s429650786.592425
+e429650786.594281
+r1
+xCpResource
+xFlappyKanye/Resources/Sounds/ding.wav
+xBuild/Products/Debug-iphoneos/FlappyKanye.app/ding.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Build/Products/Debug-iphoneos/FlappyKanye.app/ding.wav103"CpResource FlappyKanye/Resources/Sounds/ding.wav Build/Products/Debug-iphoneos/FlappyKanye.app/ding.wav35d19762f39bb941^d07e9862f39bb941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/ding.wav0034488dddffdf42^657"CpResource FlappyKanye/Resources/Sounds/ding.wav Build/Products/Debug-iphoneos/FlappyKanye.app/ding.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Sounds/ding.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"2464A27F-DE14-49BE-9753-4EFF88AD3CD5-
+b7C6890C1-F639-4394-BED0-970EC95E207B
+
+CCpResource FlappyKanye/Resources/Sounds/falling.wav Build/Products/Debug-iphoneos/FlappyKanye.app/falling.wav
+s429650786.592809
+e429650786.596727
+r1
+xCpResource
+xFlappyKanye/Resources/Sounds/falling.wav
+xBuild/Products/Debug-iphoneos/FlappyKanye.app/falling.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Products/Debug-iphoneos/FlappyKanye.app/falling.wav109"CpResource FlappyKanye/Resources/Sounds/falling.wav Build/Products/Debug-iphoneos/FlappyKanye.app/falling.wav99d59762f39bb941^74b69862f39bb941^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/falling.wav0034488dddffdf42^666"CpResource FlappyKanye/Resources/Sounds/falling.wav Build/Products/Debug-iphoneos/FlappyKanye.app/falling.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Sounds/falling.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"1DA5B9BA-21A4-4129-98F2-D5AE4956A35D-
+b7C6890C1-F639-4394-BED0-970EC95E207B
+
+CCpResource FlappyKanye/Resources/Sounds/flapping.wav Build/Products/Debug-iphoneos/FlappyKanye.app/flapping.wav
+s429651902.417968
+e429651902.473628
+r1
+xCpResource
+xFlappyKanye/Resources/Sounds/flapping.wav
+xBuild/Products/Debug-iphoneos/FlappyKanye.app/flapping.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphoneos/FlappyKanye.app/flapping.wav111"CpResource FlappyKanye/Resources/Sounds/flapping.wav Build/Products/Debug-iphoneos/FlappyKanye.app/flapping.wavce176bbef79bb941^ee049fbef79bb941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/flapping.wav0034488dddffdf42^669"CpResource FlappyKanye/Resources/Sounds/flapping.wav Build/Products/Debug-iphoneos/FlappyKanye.app/flapping.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Sounds/flapping.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"487696C4-B657-4312-8F8E-BEDCD11B2E11-
+bD5C80221-B336-45AE-BF60-25CE39F9C3AD
+
+CCpResource FlappyKanye/Resources/Sounds/hitGround.wav Build/Products/Debug-iphoneos/FlappyKanye.app/hitGround.wav
+s429651980.554843
+e429651980.556375
+r1
+xCpResource
+xFlappyKanye/Resources/Sounds/hitGround.wav
+xBuild/Products/Debug-iphoneos/FlappyKanye.app/hitGround.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug-iphoneos/FlappyKanye.app/hitGround.wav113"CpResource FlappyKanye/Resources/Sounds/hitGround.wav Build/Products/Debug-iphoneos/FlappyKanye.app/hitGround.wava7258e0cf89bb941^c53c8f0cf89bb941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/hitGround.wav0034488dddffdf42^672"CpResource FlappyKanye/Resources/Sounds/hitGround.wav Build/Products/Debug-iphoneos/FlappyKanye.app/hitGround.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Sounds/hitGround.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"4B6471F3-BCE3-4943-9C90-1D81D61EBBA5-
+bB18B4255-0A4F-4070-8D97-02E40597B301
+
+CCpResource FlappyKanye/Resources/Sounds/intro.wav Build/Products/Debug-iphoneos/FlappyKanye.app/intro.wav
+s429650786.594578
+e429650786.628840
+r1
+xCpResource
+xFlappyKanye/Resources/Sounds/intro.wav
+xBuild/Products/Debug-iphoneos/FlappyKanye.app/intro.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Products/Debug-iphoneos/FlappyKanye.app/intro.wav105"CpResource FlappyKanye/Resources/Sounds/intro.wav Build/Products/Debug-iphoneos/FlappyKanye.app/intro.wav404e9862f39bb941^b5fca062f39bb941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/intro.wav0034488dddffdf42^660"CpResource FlappyKanye/Resources/Sounds/intro.wav Build/Products/Debug-iphoneos/FlappyKanye.app/intro.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Sounds/intro.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"6397E8AC-83D7-48B3-BB5D-4ACE3052FEAA-
+b7C6890C1-F639-4394-BED0-970EC95E207B
+
+CCpResource FlappyKanye/Resources/Sounds/pop.wav Build/Products/Debug-iphoneos/FlappyKanye.app/pop.wav
+s429650786.590078
+e429650786.591635
+r1
+xCpResource
+xFlappyKanye/Resources/Sounds/pop.wav
+xBuild/Products/Debug-iphoneos/FlappyKanye.app/pop.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy Build/Products/Debug-iphoneos/FlappyKanye.app/pop.wav101"CpResource FlappyKanye/Resources/Sounds/pop.wav Build/Products/Debug-iphoneos/FlappyKanye.app/pop.wav53249762f39bb941^f9859762f39bb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/pop.wav0034488dddffdf42^654"CpResource FlappyKanye/Resources/Sounds/pop.wav Build/Products/Debug-iphoneos/FlappyKanye.app/pop.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Sounds/pop.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"C5F71E54-5429-4EC2-802F-D84ED0B0BB0D-
+b7C6890C1-F639-4394-BED0-970EC95E207B
+
+CCpResource FlappyKanye/Resources/Sounds/whack.wav Build/Products/Debug-iphoneos/FlappyKanye.app/whack.wav
+s429650786.629227
+e429650786.630618
+r1
+xCpResource
+xFlappyKanye/Resources/Sounds/whack.wav
+xBuild/Products/Debug-iphoneos/FlappyKanye.app/whack.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Products/Debug-iphoneos/FlappyKanye.app/whack.wav105"CpResource FlappyKanye/Resources/Sounds/whack.wav Build/Products/Debug-iphoneos/FlappyKanye.app/whack.wav452da162f39bb941^d670a162f39bb941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/whack.wav0034488dddffdf42^660"CpResource FlappyKanye/Resources/Sounds/whack.wav Build/Products/Debug-iphoneos/FlappyKanye.app/whack.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Sounds/whack.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"D4DBB7DE-1B9F-43F4-ACBE-031EE627637B-
+b7C6890C1-F639-4394-BED0-970EC95E207B
+
+CGenerateDSYMFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app.dSYM /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye
+s429662862.416735
+e429662862.588447
+r1
+xGenerateDSYMFile
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app.dSYM
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Generate /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app.dSYM125"GenerateDSYMFile Build/Products/Debug-iphoneos/FlappyKanye.app.dSYM Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanyea8c36a8e229cb941^09a6968e229cb941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app.dSYM/0000000000000000^695"GenerateDSYMFile Build/Products/Debug-iphoneos/FlappyKanye.app.dSYM Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app.dSYM36"D913F85D-C064-4C02-A70D-DE40C8B3D1A9-
+bAE473DCB-7B61-4A01-9A8B-005EDAB75FF4
+
+CGenerating texture atlas from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Art/assets.atlas
+s429662862.299076
+e429662862.405553
+r1
+xGenerating
+xtexture
+xatlas
+xfrom
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Art/assets.atlas
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Generating texture atlas from FlappyKanye/Resources/Art/assets.atlas68"Generating texture atlas from FlappyKanye/Resources/Art/assets.atlas00aa4c8e229cb941^b8ca678e229cb941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Resources/Art/assets.atlas/0000000000000000^588"Generating texture atlas from FlappyKanye/Resources/Art/assets.atlas    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Tools/../usr/bin/TextureAtlas /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Art/assets.atlas /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"5DD43632-1386-4A16-8138-6FD2B417650A-
+bAE473DCB-7B61-4A01-9A8B-005EDAB75FF4
+
+CGenerating texture atlas from /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Art/sprites.atlas
+s429662862.299345
+e429662862.415638
+r1
+xGenerating
+xtexture
+xatlas
+xfrom
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/Art/sprites.atlas
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Generating texture atlas from FlappyKanye/Resources/Art/sprites.atlas69"Generating texture atlas from FlappyKanye/Resources/Art/sprites.atlasf1bc4c8e229cb941^056d6a8e229cb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/Resources/Art/sprites.atlas/0000000000000000^590"Generating texture atlas from FlappyKanye/Resources/Art/sprites.atlas    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Tools/../usr/bin/TextureAtlas /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/Resources/Art/sprites.atlas /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"0648A540-6667-4F97-A835-E9B90F06CD5B-
+bAE473DCB-7B61-4A01-9A8B-005EDAB75FF4
+
+CLd /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye normal armv7s
+s429662792.717877
+e429662794.841395
+r1
+xLd
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye
+xnormal
+xarmv7s
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/FlappyKanye.LinkFileList
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/main.o
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTEffects.o
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTExtras.o
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBMyScene.o
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKEmitterNode+SKTExtras.o
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTExtras.o
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTTimingFunctions.o
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBViewController.o
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/YBAppDelegate.o
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKNode+SKTDebugDraw.o
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKAction+SKTSpecialEffects.o
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/SKTAudio.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/GLKit.framework/GLKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye74"Ld Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye normal armv7sa8e1b748229cb941^a167d74a229cb941^---0#0#1#--1425"Ld Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye normal armv7s    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos -filelist /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/FlappyKanye.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework SpriteKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/Objects-normal/armv7s/FlappyKanye_dependency_info.dat -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/FlappyKanye36"B23ADFC0-A8F2-49E2-A8F8-36AFBA9B4B0C-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CProcessInfoPlistFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/Info.plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/FlappyKanye-Info.plist
+s429662807.415098
+e429662807.417901
+r1
+xProcessInfoPlistFile
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/Info.plist
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/FlappyKanye-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Process /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/FlappyKanye-Info.plist112"ProcessInfoPlistFile Build/Products/Debug-iphoneos/FlappyKanye.app/Info.plist FlappyKanye/FlappyKanye-Info.plist795a6a57229cb941^6dff6a57229cb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/FlappyKanye-Info.plist0000000000000000^1090"ProcessInfoPlistFile Build/Products/Debug-iphoneos/FlappyKanye.app/Info.plist FlappyKanye/FlappyKanye-Info.plist    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/FlappyKanye-Info.plist -genpkginfo /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/ResourceRules.plist -additionalcontentfile /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/assetcatalog_generated_info.plist -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/Info.plist36"3D072FEF-7299-4BBD-A561-EB939F7BE1A0-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CProcessPCH /Users/Macbook/Library/Developer/Xcode/DerivedData/FlappyKanye-egyoubhlffwgdabiyirgrwjabxnr/Index/PrecompiledHeaders/FlappyKanye-Prefix-clrrovarvewqxkbbggqeevlvisay_ast/FlappyKanye-Prefix.pch.pch FlappyKanye/FlappyKanye-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Macbook/Library/Developer/Xcode/DerivedData/FlappyKanye-egyoubhlffwgdabiyirgrwjabxnr/Index/PrecompiledHeaders/FlappyKanye-Prefix-exspgrcdebcuyxfhjtmewndflgrs_ast/FlappyKanye-Prefix.pch.pch FlappyKanye/FlappyKanye-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch.pch FlappyKanye/FlappyKanye-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429662782.989183
+e429662789.556499
+r1
+xProcessPCH
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch.pch
+xFlappyKanye/FlappyKanye-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/FlappyKanye-Prefix.pch
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTUtils.h
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.h
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile FlappyKanye/FlappyKanye-Prefix.pch229"ProcessPCH Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch.pch FlappyKanye/FlappyKanye-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler1877033f229cb941^707b8e45229cb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/FlappyKanye-Prefix.pch0000000000000000^3687"ProcessPCH Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch.pch FlappyKanye/FlappyKanye-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch.dia -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch.d -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/FlappyKanye-Prefix.pch -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-auabhlskvtldykagxhxkfeerhwrz/FlappyKanye-Prefix.pch.pch36"1C998ED2-9AB0-4C9E-9FEC-6EEDEAE96353-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CProcessPCH /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-eznzzvjlzpzsrcglafkfzbakohoc/FlappyKanye-Prefix.pch.pch FlappyKanye/FlappyKanye-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429650779.239393
+e429650783.210084
+r1
+xProcessPCH
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-eznzzvjlzpzsrcglafkfzbakohoc/FlappyKanye-Prefix.pch.pch
+xFlappyKanye/FlappyKanye-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/FlappyKanye-Prefix.pch
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKTUtils.h
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKNode+SKTDebugDraw.h
+d/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/FlappyKanye/Resources/SKTUtils/SKAction+SKTSpecialEffects.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile FlappyKanye/FlappyKanye-Prefix.pch229"ProcessPCH Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-eznzzvjlzpzsrcglafkfzbakohoc/FlappyKanye-Prefix.pch.pch FlappyKanye/FlappyKanye-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler7e713d5bf39bb941^ebc8355ff39bb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/FlappyKanye/FlappyKanye-Prefix.pch0000000000000000^3687"ProcessPCH Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-eznzzvjlzpzsrcglafkfzbakohoc/FlappyKanye-Prefix.pch.pch FlappyKanye/FlappyKanye-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources/armv7s -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-eznzzvjlzpzsrcglafkfzbakohoc/FlappyKanye-Prefix.pch.dia -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-eznzzvjlzpzsrcglafkfzbakohoc/FlappyKanye-Prefix.pch.d -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/FlappyKanye/FlappyKanye-Prefix.pch -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/PrecompiledHeaders/FlappyKanye-Prefix-eznzzvjlzpzsrcglafkfzbakohoc/FlappyKanye-Prefix.pch.pch36"2331C043-5F3C-485B-820F-128937753C19-
+b7C6890C1-F639-4394-BED0-970EC95E207B
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye.xcent
+s429662862.644832
+e429662862.646728
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection233"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye.xcent233"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye.xcent2730a58e229cb941^cd91a58e229cb941^---0#0#1#-19%DVTDocumentLocation2@151"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye.xcent0000000000000000^812"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye.xcent    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Intermediates/FlappyKanye.build/Debug-iphoneos/FlappyKanye.build/FlappyKanye.xcent36"A1B97DF0-F9B8-4165-899F-BF5DECA4102E-
+bAE473DCB-7B61-4A01-9A8B-005EDAB75FF4
+
+CProcessProductPackaging /Users/Macbook/Library/MobileDevice/Provisioning\ Profiles/8fd79163-d07d-4acb-953d-6761a2ab93ec.mobileprovision /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision
+s429662807.652031
+e429662807.696094
+r1
+xProcessProductPackaging
+x/Users/Macbook/Library/MobileDevice/Provisioning Profiles/8fd79163-d07d-4acb-953d-6761a2ab93ec.mobileprovision
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"ProcessProductPackaging /Users/Macbook/Library/MobileDevice/Provisioning\ Profiles/8fd79163-d07d-4acb-953d-6761a2ab93ec.mobileprovision Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision206"ProcessProductPackaging /Users/Macbook/Library/MobileDevice/Provisioning\ Profiles/8fd79163-d07d-4acb-953d-6761a2ab93ec.mobileprovision Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision72fea657229cb941^2e92ce57229cb941^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision0000000000000000^732"ProcessProductPackaging /Users/Macbook/Library/MobileDevice/Provisioning\ Profiles/8fd79163-d07d-4acb-953d-6761a2ab93ec.mobileprovision Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/Macbook/Library/MobileDevice/Provisioning\ Profiles/8fd79163-d07d-4acb-953d-6761a2ab93ec.mobileprovision -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision36"B809E018-EEBA-4F64-B3D4-E7AC5E916993-
+bD1651203-4FBF-4D57-AF33-8631E1120697
+
+CProcessProductPackaging /Users/Macbook/Library/MobileDevice/Provisioning\ Profiles/9C0F8AC8-57C8-4F81-BD2A-0063086A5785.mobileprovision /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision
+s429650804.394126
+e429650804.477888
+r1
+xProcessProductPackaging
+x/Users/Macbook/Library/MobileDevice/Provisioning Profiles/9C0F8AC8-57C8-4F81-BD2A-0063086A5785.mobileprovision
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"ProcessProductPackaging /Users/Macbook/Library/MobileDevice/Provisioning\ Profiles/9C0F8AC8-57C8-4F81-BD2A-0063086A5785.mobileprovision Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision206"ProcessProductPackaging /Users/Macbook/Library/MobileDevice/Provisioning\ Profiles/9C0F8AC8-57C8-4F81-BD2A-0063086A5785.mobileprovision Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision06f66474f39bb941^eb577a74f39bb941^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision0034488dddffdf42^732"ProcessProductPackaging /Users/Macbook/Library/MobileDevice/Provisioning\ Profiles/9C0F8AC8-57C8-4F81-BD2A-0063086A5785.mobileprovision Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/Macbook/Library/MobileDevice/Provisioning\ Profiles/9C0F8AC8-57C8-4F81-BD2A-0063086A5785.mobileprovision -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app/embedded.mobileprovision36"01E5B854-DB64-435F-A465-83F124741D4E-
+b7C6890C1-F639-4394-BED0-970EC95E207B
+
+CTouch /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app
+s429662862.589961
+e429662862.644050
+r1
+xTouch
+x/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Touch /Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app51"Touch Build/Products/Debug-iphoneos/FlappyKanye.app5917978e229cb941^61e1a48e229cb941^---0#0#1#--423"Touch Build/Products/Debug-iphoneos/FlappyKanye.app    cd "/Users/Macbook/Xcode Projects/iOS Demos/FlappyKanye"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/FlappyKanye/Build/Products/Debug-iphoneos/FlappyKanye.app36"9D53DD89-4C90-462E-82E5-DAA717D29106-
+bAE473DCB-7B61-4A01-9A8B-005EDAB75FF4
+

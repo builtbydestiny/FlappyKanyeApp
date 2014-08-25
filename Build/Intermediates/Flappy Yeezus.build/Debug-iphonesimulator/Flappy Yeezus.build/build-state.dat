@@ -1,0 +1,899 @@
+TFlappy Yeezus
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch.pch YeezyBird/Flappy\ Yeezus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/main.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTEffects.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBMyScene.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBMyScene.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTTimingFunctions.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBViewController.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBAppDelegate.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTDebugDraw.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTSpecialEffects.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTAudio.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTAudio.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Flappy\ Yeezus normal x86_64
+cCpResource YeezyBird/Resources/Sounds/whack.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/whack.wav
+cCopyStringsFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/en.lproj/InfoPlist.strings YeezyBird/en.lproj/InfoPlist.strings
+cCpResource YeezyBird/Resources/Sounds/coin.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/coin.wav
+cGenerating texture atlas from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Art/backgrounds.atlas
+cCpResource YeezyBird/Spaceship.png Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Spaceship.png
+cCpResource YeezyBird/Resources/Sounds/hitGround.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/hitGround.wav
+cCpResource YeezyBird/Resources/Sounds/pop.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/pop.wav
+cGenerating texture atlas from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Art/sprites.atlas
+cCpResource YeezyBird/Resources/Sounds/ding.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/ding.wav
+cCpResource YeezyBird/Resources/Sounds/flapping.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/flapping.wav
+cCompileStoryboard /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Base.lproj/Main.storyboard
+cCpResource YeezyBird/Resources/Sounds/falling.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/falling.wav
+cCompileAssetCatalog /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Images.xcassets
+cProcessInfoPlistFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Info.plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Flappy\ Yeezus-Info.plist
+cGenerateDSYMFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app.dSYM /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Flappy\ Yeezus
+cTouch /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053498AB30000000000000198
+t1397328563
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531E777900000000000003B4
+t1394505593
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E7788000000000000019E
+t1394505608
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053498A600000000000446820
+t1397328480
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531E778E000000000088D8C0
+t1394505614
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+c00000000531E7794000000000024D800
+t1394505620
+s2414592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531E77970000000001F1DE10
+t1394505623
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531E77BA0000000000000ADC
+t1394505658
+s2780
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/Flappy Yeezus.LinkFileList
+c0000000053DF54150000000000000810
+t1407144981
+s2064
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.o
+t1407144983
+s9256
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKAction+SKTSpecialEffects.o
+t1407144983
+s54908
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o
+t1407144983
+s45200
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKNode+SKTDebugDraw.o
+t1407144983
+s49436
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o
+t1407144983
+s47704
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKTAudio.o
+t1407144984
+s21668
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKTEffects.o
+t1407144983
+s73532
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKTTimingFunctions.o
+t1407144983
+s41240
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/YBAppDelegate.o
+t1407144983
+s68788
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/YBMyScene.o
+t1407144983
+s74964
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/YBViewController.o
+t1407144983
+s46740
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/main.o
+t1407144982
+s3880
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/assetcatalog_dependencies.txt
+t1407144987
+s431
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/assetcatalog_generated_info.plist
+t1407144987
+s525
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy Yeezus-Prefix.pch.pch
+t1407144982
+s145440
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app
+t1407144987
+s646
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app.dSYM
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/Base.lproj/Main.storyboardc
+t1407144987
+s170
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/Flappy Yeezus
+t1407144984
+s109852
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/Info.plist
+t1407144987
+s981
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/PkgInfo
+t1407144987
+s8
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/Spaceship.png
+t1407144985
+s134723
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/backgrounds.plist
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/backgrounds.png
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/coin.wav
+t1407144985
+s20432
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/ding.wav
+t1407144985
+s53388
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/en.lproj/InfoPlist.strings
+t1407144985
+s42
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/falling.wav
+t1407144985
+s62072
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/flapping.wav
+t1407144985
+s88244
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/hitGround.wav
+t1407144985
+s27318
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/pop.wav
+t1407144985
+s4096
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/sprites.plist
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/sprites.png
+t2
+s0
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/whack.wav
+t1407144985
+s87596
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Base.lproj/Main.storyboard
+c0000000053DCD919000000000000071C
+t1406982425
+s1820
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Flappy Yeezus-Info.plist
+c0000000053DCD9200000000000000487
+t1406982432
+s1159
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Flappy Yeezus-Prefix.pch
+c0000000053DCEE1100000000000001B5
+t1406987793
+s437
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Images.xcassets
+c0000000053DCD9190000000000000088
+t1406982425
+s136
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/Art/backgrounds.atlas
+c0000000053DCD87700000000000000EE
+t1406982263
+s238
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/Art/sprites.atlas
+c0000000053DCD8780000000000000682
+t1406982264
+s1666
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.m
+c000000005299DCC20000000000000694
+t1385815234
+s1684
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.m
+c000000005299DCC20000000000000C48
+t1385815234
+s3144
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+c000000005299DCC2000000000000055E
+t1385815234
+s1374
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.m
+c0000000052FD7F8D0000000000000A8E
+t1392344973
+s2702
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.m
+c000000005299DCC20000000000000B36
+t1385815234
+s2870
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTAudio.m
+c000000005299DCC20000000000000B75
+t1385815234
+s2933
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTEffects.m
+c000000005299DCC200000000000013D3
+t1385815234
+s5075
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.m
+c000000005299DCC20000000000001AAD
+t1385815234
+s6829
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/Sounds/coin.wav
+c0000000052FD538A0000000000004FD0
+t1392333706
+s20432
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/Sounds/ding.wav
+c0000000052FC27BA000000000000D08C
+t1392256954
+s53388
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/Sounds/falling.wav
+c0000000052FD3F30000000000000F278
+t1392328496
+s62072
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/Sounds/flapping.wav
+c0000000052FBF37200000000000158B4
+t1392243570
+s88244
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/Sounds/hitGround.wav
+c0000000052FD40140000000000006AB6
+t1392328724
+s27318
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/Sounds/pop.wav
+c0000000052FD4FE10000000000001000
+t1392332769
+s4096
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/Sounds/whack.wav
+c0000000052FBF4AD000000000001562C
+t1392243885
+s87596
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Spaceship.png
+c00000000521B1C260000000000020E43
+t1377508390
+s134723
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBAppDelegate.m
+c0000000053DCD91900000000000007E4
+t1406982425
+s2020
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m
+c0000000053DECC340000000000001B31
+t1407110196
+s6961
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBViewController.m
+c0000000053DDFEEF0000000000000475
+t1407057647
+s1141
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/en.lproj/InfoPlist.strings
+c0000000053DCD919000000000000002D
+t1406982425
+s45
+
+N/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/main.m
+c0000000053DCD919000000000000015C
+t1406982425
+s348
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTAudio.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTEffects.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBAppDelegate.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBMyScene.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBViewController.m
+r0
+
+CBuild AST from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5b23be958b8fb941^5130d3958b8fb941^---0#1#1#--18"Check dependencies36"2C8C3A28-F551-4E25-BD68-894AD65BED4A-
+
+CCompileAssetCatalog /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Images.xcassets
+s428837785.171668
+e428837787.052513
+r1
+xCompileAssetCatalog
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/LaunchImage-700-568h@2x.png
+o/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/Assets.car
+o/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"CompileAssetCatalog Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app YeezyBird/Images.xcassets101"CompileAssetCatalog Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app YeezyBird/Images.xcassetsd00e2c998b8fb941^d2710d9b8b8fb941^-459"/* com.apple.actool.compilation-results *//Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/LaunchImage-700-568h@2x.png/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/Assets.car/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@87"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Images.xcassets/0000000000000000^1249"CompileAssetCatalog Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app YeezyBird/Images.xcassets    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Images.xcassets36"E417A63D-3047-4A2B-9AEE-643DACAD74A0-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837783.053706
+e428837783.135081
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.m
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.m255"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.o YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilere2000e978b8fb941^dd9422978b8fb941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.m0000000000000000^4115"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.o YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTExtras.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.o36"9AC37A62-A071-4D3D-AB41-864B5F745F6B-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTSpecialEffects.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837783.186918
+e428837783.313677
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKAction+SKTSpecialEffects.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.m
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTEffects.h
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.m271"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTSpecialEffects.o YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb0fe2f978b8fb941^ab4174978b8fb941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.m0000000000000000^4163"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTSpecialEffects.o YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTSpecialEffects.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTSpecialEffects.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKAction+SKTSpecialEffects.o36"5CEBC868-23A7-4E33-82D9-BDA8454D3F83-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837782.998898
+e428837783.186514
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.m
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.m265"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbde0ff968b8fb941^4bc82f978b8fb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.m0000000000000000^4145"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKEmitterNode+SKTExtras.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o36"E8CEB788-F798-481C-A12F-D76C2A866C2A-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTDebugDraw.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837783.186513
+e428837783.547614
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKNode+SKTDebugDraw.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.m257"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTDebugDraw.o YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler73f12f978b8fb941^e5ecb9978b8fb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.m0000000000000000^4121"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTDebugDraw.o YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTDebugDraw.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTDebugDraw.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTDebugDraw.o36"27719694-C887-427F-B365-C97ECE91A86D-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837782.810969
+e428837783.052257
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.m
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.m251"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerfcc6cf968b8fb941^8e940d978b8fb941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.m0000000000000000^4103"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTExtras.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o36"953AF044-1A84-456C-AFE0-3E6F1F058A00-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTAudio.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTAudio.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837783.298539
+e428837784.031985
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKTAudio.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTAudio.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTAudio.m
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTAudio.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTAudio.m235"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTAudio.o YeezyBird/Resources/SKTUtils/SKTAudio.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler42934c978b8fb941^d23408988b8fb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTAudio.m0000000000000000^4055"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTAudio.o YeezyBird/Resources/SKTUtils/SKTAudio.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTAudio.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTAudio.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTAudio.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTAudio.o36"FBAA8315-03FA-4E9D-BF49-334D04DB53A7-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTEffects.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837782.810503
+e428837783.082522
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKTEffects.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTEffects.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTEffects.m
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTEffects.h
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTEffects.m239"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTEffects.o YeezyBird/Resources/SKTUtils/SKTEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9ca2cf968b8fb941^e12415978b8fb941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTEffects.m0000000000000000^4067"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTEffects.o YeezyBird/Resources/SKTUtils/SKTEffects.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTEffects.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTEffects.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTEffects.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTEffects.o36"2646CC1E-351A-4DA1-904C-7A9581D79683-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTTimingFunctions.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837783.079798
+e428837783.185832
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKTTimingFunctions.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.m
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.m255"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTTimingFunctions.o YeezyBird/Resources/SKTUtils/SKTTimingFunctions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler689614978b8fb941^d5912f978b8fb941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.m0000000000000000^4115"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTTimingFunctions.o YeezyBird/Resources/SKTUtils/SKTTimingFunctions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTTimingFunctions.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTTimingFunctions.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTTimingFunctions.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/SKTTimingFunctions.o36"357DD01F-339A-44B9-9407-D746E60C00A6-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBAppDelegate.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837783.135595
+e428837783.737636
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/YBAppDelegate.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBAppDelegate.m
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBAppDelegate.m226"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBAppDelegate.o YeezyBird/YBAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler21ea22978b8fb941^0ad6bc978b8fb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/YBAppDelegate.m0000000000000000^4047"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBAppDelegate.o YeezyBird/YBAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBAppDelegate.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBAppDelegate.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBAppDelegate.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBAppDelegate.o36"0B367654-1B05-4FD9-94EA-E111343907C7-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBMyScene.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBMyScene.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837782.812548
+e428837783.079256
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/YBMyScene.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.h
+o/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m:23:20: warning: unused variable 'kAngularVelocity' [-Wunused-const-variable]
+ostatic const float kAngularVelocity = 1000;
+o                   ^
+o/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m:26:20: warning: unused variable 'kTapDelay' [-Wunused-const-variable]
+ostatic const float kTapDelay = 0.15;
+o                   ^
+o/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m:38:20: warning: unused variable 'kMinDegrees' [-Wunused-const-variable]
+ostatic const float kMinDegrees = -90;
+o                   ^
+o/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m:39:20: warning: unused variable 'kMaxDegrees' [-Wunused-const-variable]
+ostatic const float kMaxDegrees = 25;
+o                   ^
+o4 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m218"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBMyScene.o YeezyBird/YBMyScene.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb746d0968b8fb941^2fa314978b8fb941^-841"/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m:23:20: warning: unused variable 'kAngularVelocity' [-Wunused-const-variable]static const float kAngularVelocity = 1000;                   ^/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m:26:20: warning: unused variable 'kTapDelay' [-Wunused-const-variable]static const float kTapDelay = 0.15;                   ^/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m:38:20: warning: unused variable 'kMinDegrees' [-Wunused-const-variable]static const float kMinDegrees = -90;                   ^/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.m:39:20: warning: unused variable 'kMaxDegrees' [-Wunused-const-variable]static const float kMaxDegrees = 25;                   ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@34"Unused variable 'kAngularVelocity'-428837783#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/YBMyScene.m0000000000000000^22#19#22#19#409#0#19"Unused Entity Issue--2@27"Unused variable 'kTapDelay'-428837783#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@82"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/YBMyScene.m0000000000000000^25#19#25#19#486#0#19"Unused Entity Issue--2@29"Unused variable 'kMinDegrees'-428837783#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@82"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/YBMyScene.m0000000000000000^37#19#37#19#843#0#19"Unused Entity Issue--2@29"Unused variable 'kMaxDegrees'-428837783#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@82"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/YBMyScene.m0000000000000000^38#19#38#19#881#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@82"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/YBMyScene.m0000000000000000^4023"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBMyScene.o YeezyBird/YBMyScene.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBMyScene.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBMyScene.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBMyScene.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBMyScene.o36"56F8C59E-8475-4EF5-A3EE-FA285F097EB2-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBViewController.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837783.083055
+e428837783.298125
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/YBViewController.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBViewController.m
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBViewController.h
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBMyScene.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBViewController.m232"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBViewController.o YeezyBird/YBViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilera16915978b8fb941^823774978b8fb941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/YBViewController.m0000000000000000^4065"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBViewController.o YeezyBird/YBViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBViewController.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBViewController.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YBViewController.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/YBViewController.o36"27508BD2-86AE-4FC0-92DD-686D763B8B93-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/main.o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837782.810057
+e428837782.998155
+r1
+xCompileC
+xBuild/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/main.o
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/main.m
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/YBAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/main.m208"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/main.o YeezyBird/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9a93cf968b8fb941^b894ff968b8fb941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/main.m0000000000000000^3993"CompileC Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/main.o YeezyBird/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -include /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/main.dia -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/main.m -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/main.o36"E1E2680A-E697-430A-9185-6710327F1012-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCompileStoryboard /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Base.lproj/Main.storyboard
+s428837785.071580
+e428837787.752654
+r1
+xCompileStoryboard
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CompileStoryboard YeezyBird/Base.lproj/Main.storyboard54"CompileStoryboard YeezyBird/Base.lproj/Main.storyboardf46c12998b8fb941^a7aec09b8b8fb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Base.lproj/Main.storyboard0000000000000000^889"CompileStoryboard YeezyBird/Base.lproj/Main.storyboard    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Base.lproj/Main.storyboardc /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Base.lproj/Main.storyboard36"62BA783E-0F65-4279-AF82-9366D85D68B9-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCopyStringsFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/en.lproj/InfoPlist.strings YeezyBird/en.lproj/InfoPlist.strings
+s428837785.062044
+e428837785.169169
+r1
+xCopyStringsFile
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/en.lproj/InfoPlist.strings
+xYeezyBird/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy YeezyBird/en.lproj/InfoPlist.strings135"CopyStringsFile Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/en.lproj/InfoPlist.strings YeezyBird/en.lproj/InfoPlist.strings93fd0f998b8fb941^984e2b998b8fb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/en.lproj/InfoPlist.strings0000000000000000^637"CopyStringsFile Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/en.lproj/InfoPlist.strings YeezyBird/en.lproj/InfoPlist.strings    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/en.lproj -- YeezyBird/en.lproj/InfoPlist.strings36"CD20682C-F17C-47F8-ACAE-B789AF17A2E1-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCpResource YeezyBird/Resources/Sounds/coin.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/coin.wav
+s428837785.062346
+e428837785.064701
+r1
+xCpResource
+xYeezyBird/Resources/Sounds/coin.wav
+xBuild/Products/Debug-iphonesimulator/Flappy Yeezus.app/coin.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/coin.wav111"CpResource YeezyBird/Resources/Sounds/coin.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/coin.wav1f1410998b8fb941^ef9210998b8fb941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy%20Yeezus.app/coin.wav00343827dcffdf42^674"CpResource YeezyBird/Resources/Sounds/coin.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/coin.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Sounds/coin.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app36"E3674305-C50C-432E-8D07-D48A2148B9B0-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCpResource YeezyBird/Resources/Sounds/ding.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/ding.wav
+s428837785.068306
+e428837785.069635
+r1
+xCpResource
+xYeezyBird/Resources/Sounds/ding.wav
+xBuild/Products/Debug-iphonesimulator/Flappy Yeezus.app/ding.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/ding.wav111"CpResource YeezyBird/Resources/Sounds/ding.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/ding.wav479111998b8fb941^74d411998b8fb941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy%20Yeezus.app/ding.wav00343827dcffdf42^674"CpResource YeezyBird/Resources/Sounds/ding.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/ding.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Sounds/ding.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app36"7AA736BC-38CE-4289-BD8E-4FD9837C7CDA-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCpResource YeezyBird/Resources/Sounds/falling.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/falling.wav
+s428837785.169526
+e428837785.171386
+r1
+xCpResource
+xYeezyBird/Resources/Sounds/falling.wav
+xBuild/Products/Debug-iphonesimulator/Flappy Yeezus.app/falling.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/falling.wav117"CpResource YeezyBird/Resources/Sounds/falling.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/falling.wav8f8a2b998b8fb941^7ae02b998b8fb941^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy%20Yeezus.app/falling.wav00343827dcffdf42^683"CpResource YeezyBird/Resources/Sounds/falling.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/falling.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Sounds/falling.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app36"7E2E0E6D-C3FF-4010-AA42-F53AEA5A31FB-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCpResource YeezyBird/Resources/Sounds/flapping.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/flapping.wav
+s428837785.069902
+e428837785.071319
+r1
+xCpResource
+xYeezyBird/Resources/Sounds/flapping.wav
+xBuild/Products/Debug-iphonesimulator/Flappy Yeezus.app/flapping.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/flapping.wav119"CpResource YeezyBird/Resources/Sounds/flapping.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/flapping.wav9b0112998b8fb941^c04212998b8fb941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy%20Yeezus.app/flapping.wav00343827dcffdf42^686"CpResource YeezyBird/Resources/Sounds/flapping.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/flapping.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Sounds/flapping.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app36"6877B5E6-7E47-42C6-8190-4702609E8E7B-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCpResource YeezyBird/Resources/Sounds/hitGround.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/hitGround.wav
+s428837785.065134
+e428837785.066706
+r1
+xCpResource
+xYeezyBird/Resources/Sounds/hitGround.wav
+xBuild/Products/Debug-iphonesimulator/Flappy Yeezus.app/hitGround.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/hitGround.wav121"CpResource YeezyBird/Resources/Sounds/hitGround.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/hitGround.wav87c510998b8fb941^d31411998b8fb941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy%20Yeezus.app/hitGround.wav00343827dcffdf42^689"CpResource YeezyBird/Resources/Sounds/hitGround.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/hitGround.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Sounds/hitGround.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app36"74B15324-0C40-4F41-80FB-1CEE119B12C6-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCpResource YeezyBird/Resources/Sounds/pop.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/pop.wav
+s428837785.066694
+e428837785.068105
+r1
+xCpResource
+xYeezyBird/Resources/Sounds/pop.wav
+xBuild/Products/Debug-iphonesimulator/Flappy Yeezus.app/pop.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/pop.wav109"CpResource YeezyBird/Resources/Sounds/pop.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/pop.wave83211998b8fb941^507011998b8fb941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy%20Yeezus.app/pop.wav00343827dcffdf42^671"CpResource YeezyBird/Resources/Sounds/pop.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/pop.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Sounds/pop.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app36"574853B8-BB79-4FB8-BAD9-FD2903E90046-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCpResource YeezyBird/Resources/Sounds/whack.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/whack.wav
+s428837785.061873
+e428837785.064306
+r1
+xCpResource
+xYeezyBird/Resources/Sounds/whack.wav
+xBuild/Products/Debug-iphonesimulator/Flappy Yeezus.app/whack.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/whack.wav113"CpResource YeezyBird/Resources/Sounds/whack.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/whack.wavbff30f998b8fb941^037710998b8fb941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy%20Yeezus.app/whack.wav00343827dcffdf42^677"CpResource YeezyBird/Resources/Sounds/whack.wav Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/whack.wav    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Sounds/whack.wav /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app36"7C8023F9-1A7B-48CF-BEDD-3170E1116FBD-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CCpResource YeezyBird/Spaceship.png Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Spaceship.png
+s428837785.064579
+e428837785.066251
+r1
+xCpResource
+xYeezyBird/Spaceship.png
+xBuild/Products/Debug-iphonesimulator/Flappy Yeezus.app/Spaceship.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/Spaceship.png104"CpResource YeezyBird/Spaceship.png Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Spaceship.png55a610998b8fb941^bef610998b8fb941^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy%20Yeezus.app/Spaceship.png00343827dcffdf42^655"CpResource YeezyBird/Spaceship.png Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Spaceship.png    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Spaceship.png /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app36"AA6B95CF-13A0-4CA4-8120-08C4DC153422-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CGenerateDSYMFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app.dSYM /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Flappy\ Yeezus
+s428837787.756155
+e428837787.844068
+r1
+xGenerateDSYMFile
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app.dSYM
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/Flappy Yeezus
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Generate /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app.dSYM148"GenerateDSYMFile Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app.dSYM Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Flappy\ Yeezuscba1c19b8b8fb941^2716d89b8b8fb941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy%20Yeezus.app.dSYM00343827dcffdf42^742"GenerateDSYMFile Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app.dSYM Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Flappy\ Yeezus    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Flappy\ Yeezus -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app.dSYM36"01361127-DAEC-411D-9DDB-89B5EA2803B0-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CGenerating texture atlas from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Art/backgrounds.atlas
+s428837785.063374
+e428837785.432805
+r1
+xGenerating
+xtexture
+xatlas
+xfrom
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/Art/backgrounds.atlas
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Generating texture atlas from YeezyBird/Resources/Art/backgrounds.atlas71"Generating texture atlas from YeezyBird/Resources/Art/backgrounds.atlas7f4f10998b8fb941^3acd6e998b8fb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Resources/Art/backgrounds.atlas/0000000000000000^605"Generating texture atlas from YeezyBird/Resources/Art/backgrounds.atlas    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Tools/../usr/bin/TextureAtlas /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Art/backgrounds.atlas /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app36"7035CF55-EBDA-44B1-8B6F-71205ED7CA5B-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CGenerating texture atlas from /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Art/sprites.atlas
+s428837785.067071
+e428837785.750729
+r1
+xGenerating
+xtexture
+xatlas
+xfrom
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/Art/sprites.atlas
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Generating texture atlas from YeezyBird/Resources/Art/sprites.atlas67"Generating texture atlas from YeezyBird/Resources/Art/sprites.atlasd84511998b8fb941^b130c0998b8fb941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Resources/Art/sprites.atlas/0000000000000000^597"Generating texture atlas from YeezyBird/Resources/Art/sprites.atlas    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Tools/../usr/bin/TextureAtlas /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Resources/Art/sprites.atlas /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app36"944FA9C3-9565-4745-B3AB-95F603D8D8D5-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CLd /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Flappy\ Yeezus normal x86_64
+s428837784.034012
+e428837785.060390
+r1
+xLd
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/Flappy Yeezus
+xnormal
+xx86_64
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/Flappy Yeezus.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/main.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKTEffects.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKNode+SKTExtras.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/YBMyScene.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKEmitterNode+SKTExtras.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKAction+SKTExtras.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKTTimingFunctions.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/YBViewController.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/YBAppDelegate.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKNode+SKTDebugDraw.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKAction+SKTSpecialEffects.o
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/Flappy Yeezus.build/Debug-iphonesimulator/Flappy Yeezus.build/Objects-normal/x86_64/SKTAudio.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/GLKit.framework/GLKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libsystem_stats.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Link /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/Flappy Yeezus87"Ld Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Flappy\ Yeezus normal x86_64bfd308988b8fb941^08770f998b8fb941^---0#0#1#--1566"Ld Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Flappy\ Yeezus normal x86_64    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator -filelist /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/Flappy\ Yeezus.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework SpriteKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Objects-normal/x86_64/Flappy\ Yeezus_dependency_info.dat -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Flappy\ Yeezus36"CD39B886-F7D6-4DC8-AB01-E289F236BA25-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CProcessInfoPlistFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Info.plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Flappy\ Yeezus-Info.plist
+s428837787.753415
+e428837787.755607
+r1
+xProcessInfoPlistFile
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app/Info.plist
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Flappy Yeezus-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Process /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Flappy Yeezus-Info.plist123"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Info.plist YeezyBird/Flappy\ Yeezus-Info.plist80f1c09b8b8fb941^1e70c19b8b8fb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Flappy%20Yeezus-Info.plist0000000000000000^1000"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Info.plist YeezyBird/Flappy\ Yeezus-Info.plist    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Flappy\ Yeezus-Info.plist -genpkginfo /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/assetcatalog_generated_info.plist -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Info.plist36"10248F50-A0ED-438A-B318-AD63E29F97D9-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CProcessInfoPlistFile /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app/Info.plist /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/YeezyBird-Info.plist
+r0
+
+CProcessPCH /Users/Macbook/Library/Developer/Xcode/DerivedData/Flappy_Yeezus-cvgeowcbldxxmtdnlukxzqrsmgth/Index/PrecompiledHeaders/Flappy\ Yeezus-Prefix-escnewoedkkpebcjdtidyfvzbiso_ast/Flappy\ Yeezus-Prefix.pch.pch YeezyBird/Flappy\ Yeezus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Macbook/Library/Developer/Xcode/DerivedData/Flappy_Yeezus-cvgeowcbldxxmtdnlukxzqrsmgth/Index/PrecompiledHeaders/YeezyBird-Prefix-escnewoedkkpebcjdtidyfvzbiso_ast/YeezyBird-Prefix.pch.pch YeezyBird/YeezyBird-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Macbook/Library/Developer/Xcode/DerivedData/Flappy_Yeezus-cvgeowcbldxxmtdnlukxzqrsmgth/Index/PrecompiledHeaders/YeezyBird-Prefix-hejyovomajilyedvkyihywhewjct_ast/YeezyBird-Prefix.pch.pch YeezyBird/YeezyBird-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch.pch YeezyBird/Flappy\ Yeezus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428837781.826315
+e428837782.809160
+r1
+xProcessPCH
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy Yeezus-Prefix.pch.pch
+xYeezyBird/Flappy Yeezus-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Flappy Yeezus-Prefix.pch
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKTUtils.h
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKNode+SKTDebugDraw.h
+d/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/YeezyBird/Resources/SKTUtils/SKAction+SKTSpecialEffects.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile YeezyBird/Flappy Yeezus-Prefix.pch236"ProcessPCH Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch.pch YeezyBird/Flappy\ Yeezus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilere0a2d3958b8fb941^8029cf968b8fb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/Macbook/Xcode%20Projects/iOS%20Demos/YeezyBird/YeezyBird/Flappy%20Yeezus-Prefix.pch0000000000000000^3887"ProcessPCH Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch.pch YeezyBird/Flappy\ Yeezus-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Macbook/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-generated-files.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-own-target-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-all-target-headers.hmap -iquote /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/Flappy\ Yeezus-project-headers.hmap -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources/x86_64 -I/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/Flappy\ Yeezus.build/Debug-iphonesimulator/Flappy\ Yeezus.build/DerivedSources -F/Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch.dia -MMD -MT dependencies -MF /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch.d -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/YeezyBird/Flappy\ Yeezus-Prefix.pch -o /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/Flappy\ Yeezus-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/Flappy\ Yeezus-Prefix.pch.pch36"531B7F89-B366-4D95-BFD6-B62122981436-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
+CProcessPCH /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/YeezyBird-Prefix-drshgzqwyfnxrvdwbjwzptrhnbhw/YeezyBird-Prefix.pch.pch YeezyBird/YeezyBird-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Intermediates/PrecompiledHeaders/YeezyBird-Prefix-ekqgdnmzfggefrdpnkmxmulolxcc/YeezyBird-Prefix.pch.pch YeezyBird/YeezyBird-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app
+s428837787.845365
+e428837787.900576
+r1
+xTouch
+x/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Touch /Users/Macbook/Xcode Projects/iOS Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy Yeezus.app61"Touch Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.appd47dd89b8b8fb941^0d8ee69b8b8fb941^---0#0#1#--446"Touch Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app    cd "/Users/Macbook/Xcode Projects/iOS Demos/YeezyBird"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Macbook/Xcode\ Projects/iOS\ Demos/YeezyBird/Build/Products/Debug-iphonesimulator/Flappy\ Yeezus.app36"99A76769-4774-4D07-82A9-2A328F7F20D5-
+bFDC1A91C-5831-4A42-BE79-F6CCB53EFB24
+
